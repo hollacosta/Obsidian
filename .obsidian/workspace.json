@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "This is all new to me.md",
+                "file": "OSCP Training.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "This is all new to me.md",
+                "file": "OSCP Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "This is all new to me.md",
+                "file": "OSCP Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "This is all new to me.md"
+                "file": "OSCP Training.md"
               }
             }
           }
@@ -156,7 +156,7 @@
   },
   "active": "876252fb0b067943",
   "lastOpenFiles": [
-    "This is all new to me.md",
+    "OSCP Training.md",
     "Obsidian"
   ]
 }
