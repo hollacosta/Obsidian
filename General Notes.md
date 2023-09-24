@@ -11,4 +11,16 @@ Important information for Web Application Security Testing
 	# a list where all my commands are located
 
 Chmod Cheat Sheet
-![[Pasted image 20230924075326.png]]
+![[Pasted image 20230924101458.png]]
+
+A GENERAL PENETRATION TEST comprises the following stages:
+
+- Defining the Scope
+- Information Gathering
+- Vulnerability Detection
+- Initial Foothold
+- Privilege Escalation
+- Lateral Movement
+- Reporting/Analysis
+- Lessons Learned/Remediation
+

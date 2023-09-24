@@ -8,25 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47e94b8a3ce18aef",
+            "id": "5bf811c703e33eb6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "876252fb0b067943",
-            "type": "leaf",
-            "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20230924075326.png"
+                "file": "1. Information Gathering Techniques.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20230924075326.png",
+                "file": "1. Information Gathering Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20230924075326.png",
+                "file": "1. Information Gathering Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20230924075326.png"
+                "file": "1. Information Gathering Techniques.md"
               }
             }
           }
@@ -152,10 +145,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4442928990018c1e",
+  "active": "5bf811c703e33eb6",
   "lastOpenFiles": [
-    "OSCP Training.md",
+    "General Notes.md",
+    "Note Taking.md",
+    "1. Information Gathering Techniques.md",
+    "Pasted image 20230924103936.png",
+    "Pasted image 20230924103952.png",
+    "Pasted image 20230924101458.png",
+    "Pasted image 20230924101527.png",
+    "Pasted image 20230924075326.png.md",
+    "Untitled",
+    "OSCP/Untitled.md",
     "Pasted image 20230924075326.png",
+    "Obsidian/Untitled.md",
     "Pasted image 20230923202759.png.md",
     "Chmod Cheat Sheet.png.md",
     "Pasted image 20230923202759.png",
@@ -163,6 +166,6 @@
     "Pasted image 20230923202717.png",
     "Chmod Cheat Sheet.png",
     "Pasted image 20230923202440.png",
-    "Obsidian"
+    "OSCP"
   ]
 }
