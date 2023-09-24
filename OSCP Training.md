@@ -10,3 +10,8 @@ Important information for Web Application Security Testing
 	ls -lh /usr/bin
 	# a list where all my commands are located
 
+Chmod cheat sheet
+
+![[Chmod Cheat Sheet.png]]
+
+
