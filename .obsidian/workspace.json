@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Information Gathering Techniques.md",
+                "file": "OSCP/1. Information Gathering Techniques.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36566ea9a3eaace5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Megacorpone.com/Information Gathering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Information Gathering Techniques.md",
+                "file": "Megacorpone.com/Information Gathering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Information Gathering Techniques.md",
+                "file": "Megacorpone.com/Information Gathering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Information Gathering Techniques.md"
+                "file": "Megacorpone.com/Information Gathering.md"
               }
             }
           }
@@ -133,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,17 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5bf811c703e33eb6",
+  "active": "4442928990018c1e",
   "lastOpenFiles": [
-    "General Notes.md",
-    "Note Taking.md",
-    "1. Information Gathering Techniques.md",
-    "Pasted image 20230924103936.png",
-    "Pasted image 20230924103952.png",
+    "OSCP/1. Information Gathering Techniques.md",
+    "Untitled 1",
+    "Untitled.canvas",
+    "OSCP/General Notes.md",
+    "OSCP/Note Taking.md",
     "Pasted image 20230924101458.png",
+    "Pasted image 20230924103936.png",
+    "Megacorpone.com/Information Gathering.md",
+    "Pasted image 20230924103952.png",
     "Pasted image 20230924101527.png",
     "Pasted image 20230924075326.png.md",
-    "Untitled",
+    "Megacorpone.com",
     "OSCP/Untitled.md",
     "Pasted image 20230924075326.png",
     "Obsidian/Untitled.md",
