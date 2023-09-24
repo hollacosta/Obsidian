@@ -4,3 +4,9 @@ As an additional note, the way Module exercises are implemented allows us to use
 ssh -o "UserKnownHostsFile=/dev/null" -o "StrictHostKeyChecking=no" learner@192.168.50.52
 ```
 
+https://github.com/OWASP/wstg/tree/master/document/4-Web_Application_Security_Testing
+Important information for Web Application Security Testing
+
+	ls -lh /usr/bin
+	# a list where all my commands are located
+
