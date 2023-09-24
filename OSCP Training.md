@@ -11,5 +11,4 @@ Important information for Web Application Security Testing
 	# a list where all my commands are located
 
 Chmod Cheat Sheet
-![[Pasted image 20230923202759.png]]
-
+![[Pasted image 20230924075326.png]]

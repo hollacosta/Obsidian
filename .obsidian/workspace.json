@@ -19,11 +19,9 @@
             "id": "876252fb0b067943",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "OSCP Training.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20230924075326.png"
               }
             }
           }
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP Training.md",
+                "file": "Pasted image 20230924075326.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP Training.md",
+                "file": "Pasted image 20230924075326.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP Training.md"
+                "file": "Pasted image 20230924075326.png"
               }
             }
           }
@@ -154,11 +152,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "876252fb0b067943",
+  "active": "4442928990018c1e",
   "lastOpenFiles": [
-    "Pasted image 20230923202759.png",
-    "Chmod Cheat Sheet.png.md",
     "OSCP Training.md",
+    "Pasted image 20230924075326.png",
+    "Pasted image 20230923202759.png.md",
+    "Chmod Cheat Sheet.png.md",
+    "Pasted image 20230923202759.png",
     "Pasted image 20230923202717.png.md",
     "Pasted image 20230923202717.png",
     "Chmod Cheat Sheet.png",
