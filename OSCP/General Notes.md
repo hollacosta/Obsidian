@@ -24,3 +24,8 @@ A GENERAL PENETRATION TEST comprises the following stages:
 - Reporting/Analysis
 - Lessons Learned/Remediation
 
+**SETTING UP A LISTENER FOR THE TARGET MACHINE TO SEE DATA SIZE IN IPTABLES**
+┌──(hollacosta㉿kali1)-[~]
+└─$ sudo iptables -I OUTPUT 1 -d **192.168.234.52** -j ACCEPT
+┌──(hollacosta㉿kali1)-[~]
+└─$ sudo iptables -I INPUT 1 -s **192.168.234.52** -j ACCEPT     
