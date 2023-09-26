@@ -126,6 +126,7 @@ the strongest parameters you can consider using: ^c034b3
     - Use options like `-e` to specify an executable to run upon connection, which can help bypass firewalls and intrusion detection systems.
     - 
 ***PORT SCANNING***
+[Nmap Summary (ESP) - HackTricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-network/nmap-summary-esp)
 **NMAP**
 └─$ sudo nmap -sS 192.168.234.52                                                                        ---- STEALTH SCAN ^002524
 
@@ -243,10 +244,13 @@ Test-NetConnection -Port 445 192.168.50.151
 1..1024 | % {echo ((New-Object Net.Sockets.TcpClient).Connect("192.168.248.52", $_)) "TCP port $_ is open"} 2>$null
 
 **SMB ENUMERATION**
-
+[139,445 - Pentesting SMB - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)
 **NBTSCAN**
 └─$ sudo nbtscan -r 192.168.234.20/24                              
 Doing NBT name scan for addresses from 192.168.234.20/24
+
+**NBTSTAT** - on Windows
+
 
 
 **USING NMAP FOR SMB ENUMERATION**
@@ -262,7 +266,11 @@ nmap -v -p 139,445 -oG smb.txt 192.168.234.
 -rw-r--r-- 1 root root  3355 Oct 12  2020 /usr/share/nmap/scripts/smb2-capabilities.nse
 -rw-r--r-- 1 root root  3075 Oct 12  2020 /usr/share/nmap/scripts/smb2-security-mode.nse
 
+**SMTP**
+[25,465,587 - Pentesting SMTP/s - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smtp)
+
 **SNMP** 
+[161,162,10161,10162/udp - Pentesting SNMP - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-snmp)
 1. **System Information (SNMPv2-MIB::sysDescr):**
     - OID: 1.3.6.1.2.1.1.1.0
     - Command: `snmpwalk -v2c -c public <target_IP> SNMPv2-MIB::sysDescr`

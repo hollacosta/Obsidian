@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Information Gathering/Active Information Gathering.md",
+                "file": "OSCP/Web Application Attacks/Tools.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Information Gathering/Active Information Gathering.md",
+                "file": "OSCP/Web Application Attacks/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Information Gathering/Active Information Gathering.md",
+                "file": "OSCP/Web Application Attacks/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Information Gathering/Active Information Gathering.md"
+                "file": "OSCP/Web Application Attacks/Tools.md"
               }
             }
           }
@@ -159,17 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36566ea9a3eaace5",
+  "active": "4442928990018c1e",
   "lastOpenFiles": [
-    "OSCP/Information Gathering/Active Information Gathering.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
     "OSCP/General Notes.md",
+    "OSCP/Web Application Attacks/Tools.md",
+    "OSCP/Vulnerability Scanning/NMAP NSE.md",
+    "Untitled 1.canvas",
+    "OSCP/Web Application Attacks",
+    "OSCP/Vulnerability Scanning/Nessus.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
+    "OSCP/Pentest Report.md",
+    "OSCP/Vulnerability Scanning/Nessus/Untitled.md",
+    "OSCP/Vulnerability Scanning/Nessus",
+    "OSCP/Vulnerability Scanning",
+    "Untitled.canvas",
     "Megacorpone.com/Information Gathering.md",
     "OSCP/Information Gathering/Passive information.md",
     "OSCP/Information Gathering",
     "Untitled 1",
-    "OSCP/Note Taking.md",
     "Pasted image 20230924101458.png",
     "Pasted image 20230924103936.png",
     "Pasted image 20230924103952.png",
