@@ -1,8 +1,5 @@
-
-DNS
-
+**DNS**
 make sure you put the www in the website. see example below
-
 ┌──(hollacosta㉿kali1)-[~]
 └─$ host megacorpcone.com
 Host megacorpcone.com not found: 3(NXDOMAIN)
@@ -34,8 +31,7 @@ Create a list of the possible hostnames
 19. monitoring
 20. cloud
 
-
-└─$ for ip in $(cat list.txt); do host $ip.megacorpone.com; done
+└─**$ for ip in $(cat list.txt); do host $ip.megacorpone.com; done**  ---automate host f
 www.megacorpone.com has address 149.56.244.87
 Host ftp.megacorpone.com not found: 3(NXDOMAIN)
 mail.megacorpone.com has address 51.222.169.212
@@ -55,8 +51,8 @@ router.megacorpone.com has address 51.222.169.214
 for ip in $(seq 200 254); do host 51.222.169.$ip; done | grep -v "not found"
 the ip bash loops in the ips 200-254 and is placed with the $
 
-DNS RECON
-the strongest parameters you can consider using:
+**DNS RECON**
+the strongest parameters you can consider using: ^c034b3
 
 1. **-d (Domain)**: Specify the target domain name to perform DNS reconnaissance on.
 2. **-t (Type)**: Choose the type of DNS enumeration you want to perform. Common options include standard (A, AAAA, MX, NS, SOA, TXT, SRV), reverse (PTR), brute force (bruteforce), and more.
@@ -76,9 +72,7 @@ the strongest parameters you can consider using:
 16. **-n (No Recursion)**: Disable recursive querying to avoid hitting authoritative DNS servers.  
 17. **-C (Cache Snooping)**: Attempt to retrieve cached DNS records from the target server.
     
-18. **-A (All)**: Combine multiple types of enumeration (e.g., standard, reverse, brute force) in a single scan.
-
-  
+18. **-A (All)**: Combine multiple types of enumeration (e.g., standard, reverse, brute force) in a single scan. ^f307d3
 
 **DNSENUM**
 
@@ -130,9 +124,10 @@ the strongest parameters you can consider using:
     - `-s` (Bind source address): Specify a source IP address to listen on a specific network interface.
 12. **Firewall Evasion:**
     - Use options like `-e` to specify an executable to run upon connection, which can help bypass firewalls and intrusion detection systems.
-
+    - 
+***PORT SCANNING***
 **NMAP**
-└─$ sudo nmap -sS 192.168.234.52                                                                        ---- STEALTH SCAN
+└─$ sudo nmap -sS 192.168.234.52                                                                        ---- STEALTH SCAN ^002524
 
 └─$ sudo nmap -sT 192.168.234.52
 Starting Nmap 7.91 ( https://nmap.org ) at 2023-09-25 06:57 EDT      ---- TCP FULL CONNECT SCAN
@@ -248,6 +243,14 @@ Test-NetConnection -Port 445 192.168.50.151
 1..1024 | % {echo ((New-Object Net.Sockets.TcpClient).Connect("192.168.248.52", $_)) "TCP port $_ is open"} 2>$null
 
 **SMB ENUMERATION**
+
+**NBTSCAN**
+└─$ sudo nbtscan -r 192.168.234.20/24                              
+Doing NBT name scan for addresses from 192.168.234.20/24
+
+
+**USING NMAP FOR SMB ENUMERATION**
+-----------------------------------------------------------------------------
 nmap -v -p 139,445 -oG smb.txt 192.168.234.      
 - `-v`: It makes the tool provide more details during the scan.
 - `-p 139,445`: It checks if ports 139 and 445 are open on a device. These ports are often used for file sharing on Windows computers.
@@ -259,7 +262,7 @@ nmap -v -p 139,445 -oG smb.txt 192.168.234.
 -rw-r--r-- 1 root root  3355 Oct 12  2020 /usr/share/nmap/scripts/smb2-capabilities.nse
 -rw-r--r-- 1 root root  3075 Oct 12  2020 /usr/share/nmap/scripts/smb2-security-mode.nse
 
-**SNMP**
+**SNMP** 
 1. **System Information (SNMPv2-MIB::sysDescr):**
     - OID: 1.3.6.1.2.1.1.1.0
     - Command: `snmpwalk -v2c -c public <target_IP> SNMPv2-MIB::sysDescr`
@@ -332,7 +335,7 @@ nmap -v -p 139,445 -oG smb.txt 192.168.234.
 |1.3.6.1.4.1.77.1.2.25|User Accounts|
 |1.3.6.1.2.1.6.13.1.3|TCP Local Ports|
 
-
+**FINDINDG SNMP WITH NMAP AND BUILDING COMMUNITY STRINGS USING ONESIXTYONE**
 
 kali@kali:~$ sudo nmap -sU --open -p 161 192.168.50.1-254 -oG open-snmp.txt
 kali@kali:~$ echo public > community
@@ -342,3 +345,5 @@ kali@kali:~$ echo manager >> community
 for ip in $(seq 1 254); do echo 192.168.50.$ip; done > ips
 kali@kali:~$ onesixtyone -c community -i 
 public -v1 -t 10 192.168.50.151
+
+
