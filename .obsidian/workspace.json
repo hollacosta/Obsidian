@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Web Application Attacks/Page Inspection.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/Page Inspection.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/Page Inspection.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/Page Inspection.md"
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md"
               }
             }
           }
@@ -148,25 +148,28 @@
   },
   "active": "6294ee4aed213de4",
   "lastOpenFiles": [
+    "OSCP/Web Application Attacks/PRIVILEGE ESCALATION via XSS.md",
+    "OSCP/Information Gathering/Passive information.md",
+    "OSCP/Vulnerability Scanning/NMAP NSE.md",
+    "OSCP/Vulnerability Scanning/Nessus.md",
+    "OSCP/Web Application Attacks/Cross Site Scripting.md",
+    "OSCP/Web Application Attacks/Page Inspection.md",
+    "OSCP/Web Application Attacks/Enumerating APIs.md",
+    "OSCP/Web Application Attacks/Tools.md",
+    "Megacorpone.com/Information Gathering.md",
     "Pasted image 20230927075343.png",
     "Pasted image 20230927075239.png",
-    "OSCP/Web Application Attacks/Tools.md",
-    "OSCP/Web Application Attacks/Page Inspection.md",
     "Pasted image 20230927075114.png",
-    "OSCP/Information Gathering/Passive information.md",
     "OSCP/General Notes.md",
     "Pasted image 20230926204532.png",
-    "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
-    "OSCP/Vulnerability Scanning/Nessus.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Pentest Report.md",
     "OSCP/Vulnerability Scanning/Nessus/Untitled.md",
     "OSCP/Vulnerability Scanning/Nessus",
     "OSCP/Vulnerability Scanning",
     "Untitled.canvas",
-    "Megacorpone.com/Information Gathering.md",
     "OSCP/Information Gathering",
     "Untitled 1",
     "Pasted image 20230924101458.png",
@@ -181,7 +184,6 @@
     "Chmod Cheat Sheet.png.md",
     "Pasted image 20230923202759.png",
     "Pasted image 20230923202717.png.md",
-    "Pasted image 20230923202717.png",
     "OSCP"
   ]
 }

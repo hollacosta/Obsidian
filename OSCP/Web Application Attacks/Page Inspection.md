@@ -1,4 +1,5 @@
-![[Pasted image 20230927075114.png]]
+
+[80,443 - Pentesting Web Methodology - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web)
 
 Use the inspect option to see valuable HTML information
 
@@ -14,3 +15,14 @@ use curl to get information from the page
 └─$ curl https://www.google.com/robots.txt
 User-agent: *
 Disallow: /search
+
+
+**Initial checks**
+
+**Default pages with interesting info:**
+- /robots.txt    
+- /sitemap.xml 
+- /crossdomain.xml 
+- /clientaccesspolicy.xml    
+- /.well-known/
+- Check also comments in the main and secondary pages.

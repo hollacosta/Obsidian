@@ -1,14 +1,15 @@
 
 **PASSIVE INFORMATION GATHERING**
 
-**Whois**: Provides information about a domain name and registar.
+## **Whois**: Provides information about a domain name and registar.
 
 PORT 43
 whois -h <HOST> -p <PORT> "domain.tld"
 
 echo "domain.ltd" | nc -vn <HOST> <PORT>
 
-**SQL INJECTION**
+**SQL INJECTION ON WHOIS**
+
 whois -h 10.10.10.155 -p 43 "a') or 1=1#"
 
 **SHODAN**
