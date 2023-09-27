@@ -16,4 +16,11 @@ https://www.wappalyzer.com/
 
 gobuster dir -u 192.168.50.20 -w /usr/share/wordlists/dirb/common.txt -t 5
 
+**BURPSUITE**
+
+┌──(hollacosta㉿kali1)-[~]
+└─$ burpsuite                                                                                       ---- to start the app
+Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+Your JRE appears to be version 17.0.9-ea from Debian
+Burp has not been fully tested on this platform and you may experience problems.
 

@@ -29,3 +29,7 @@ A GENERAL PENETRATION TEST comprises the following stages:
 └─$ sudo iptables -I OUTPUT 1 -d **192.168.234.52** -j ACCEPT
 ┌──(hollacosta㉿kali1)-[~]
 └─$ sudo iptables -I INPUT 1 -s **192.168.234.52** -j ACCEPT     
+
+
+****FIREFOX SETTINGS FOR BURPSUITE
+![[Pasted image 20230926204532.png]]
