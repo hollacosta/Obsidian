@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5bf811c703e33eb6",
+            "id": "6294ee4aed213de4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Information Gathering/Passive information.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36566ea9a3eaace5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP/Web Application Attacks/Tools.md",
+                "file": "OSCP/Web Application Attacks/Page Inspection.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/Tools.md",
+                "file": "OSCP/Web Application Attacks/Page Inspection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/Tools.md",
+                "file": "OSCP/Web Application Attacks/Page Inspection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/Tools.md"
+                "file": "OSCP/Web Application Attacks/Page Inspection.md"
               }
             }
           }
@@ -159,12 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36566ea9a3eaace5",
+  "active": "6294ee4aed213de4",
   "lastOpenFiles": [
+    "Pasted image 20230927075343.png",
+    "Pasted image 20230927075239.png",
+    "OSCP/Web Application Attacks/Tools.md",
+    "OSCP/Web Application Attacks/Page Inspection.md",
+    "Pasted image 20230927075114.png",
+    "OSCP/Information Gathering/Passive information.md",
     "OSCP/General Notes.md",
     "Pasted image 20230926204532.png",
-    "OSCP/Information Gathering/Passive information.md",
-    "OSCP/Web Application Attacks/Tools.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
@@ -191,8 +182,6 @@
     "Pasted image 20230923202759.png",
     "Pasted image 20230923202717.png.md",
     "Pasted image 20230923202717.png",
-    "Chmod Cheat Sheet.png",
-    "Pasted image 20230923202440.png",
     "OSCP"
   ]
 }
