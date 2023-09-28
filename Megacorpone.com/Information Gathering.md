@@ -1,6 +1,4 @@
 
-
-
 trivera:$apr1$A0vSKwao$GV3sgGAj53j.c3GkS4oUC0
 xamps.users information found in github
 
