@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Web Application Attacks/File Inclusion.md",
+                "file": "OSCP/Web Application Attacks/LFI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/File Inclusion.md",
+                "file": "OSCP/Web Application Attacks/LFI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/File Inclusion.md",
+                "file": "OSCP/Web Application Attacks/LFI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/File Inclusion.md"
+                "file": "OSCP/Web Application Attacks/LFI.md"
               }
             }
           }
@@ -149,12 +149,13 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "OSCP/Web Application Attacks/Tools.md",
+    "OSCP/Web Application Attacks/Directory Trasversal.md",
+    "OSCP/Web Application Attacks/LFI.md",
     "OSCP/Web Application Attacks/File Inclusion.md",
+    "OSCP/Web Application Attacks/Tools.md",
     "OSCP/Web Application Attacks/Enumerating APIs.md",
     "OSCP/Web Application Attacks/File Upload Vulnerabilities.md",
     "OSCP/Web Application Attacks/Encoding Special Characters.md",
-    "OSCP/Web Application Attacks/Directory Trasversal.md",
     "OSCP/General Notes.md",
     "Megacorpone.com/Information Gathering.md",
     "OSCP/Web Application Attacks/Cross Site Scripting.md",
@@ -172,7 +173,6 @@
     "OSCP/Web Application Attacks/Page Inspection.md",
     "OSCP/Web Application Attacks/Remote File Inclusion.md",
     "Untitled.md",
-    "OSCP/Web Application Attacks/File Inclusion.md",
     "OSCP/Web Application Attacks/File Inclusion Vulnerabilities.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Web Application Attacks/PRIVILEGE ESCALATION via XSS.md",
