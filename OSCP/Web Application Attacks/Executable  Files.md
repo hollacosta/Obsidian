@@ -1,3 +1,15 @@
+Check if the website accepts other kinds of input (Text, pdf, etc)
+
+SEE LESSON TO CREATE A BASE 64 ENCODE STRING
+
+Use simple backdoor webshells, and try to change the ext
+after uploading file.
+
+curl it
+
+![[Pasted image 20230930072157.png]]
+
+
 Use Burp to see the files you upload and send it to repeater
 ![[Pasted image 20230929081700.png]]
 
@@ -5,11 +17,7 @@ Use directory traversal technique to see if you can get a proper response for it
 
 ![[Pasted image 20230929081856.png]]
 
-
-┌──(hollacosta㉿kali1)-[~/Downloads]
-└─$ cd ~/Downloads
-
-**CREATE THE SSH KEY**
+###  CREATE AN SSH KEY
 ┌──(hollacosta㉿kali1)-[~/Downloads]
 └─$ ssh-keygen                                      
 Generating public/private rsa key pair.
@@ -70,3 +78,13 @@ root@84e850ae62ab:~# cat /root/flag.txt
 OS{0abee53b249dc5c654c0ffc1489fc77a}
 root@84e850ae62ab:~# 
 
+
+
+After creating the key, navigate to the the page again with intercept on so you can forward ssh key
+
+![[Pasted image 20230930072812.png]]
+
+remove /etc/known_hosts
+
+try to login as root 
+![[Pasted image 20230930072943.png]]

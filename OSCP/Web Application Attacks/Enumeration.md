@@ -1,6 +1,10 @@
 
 [80,443 - Pentesting Web Methodology - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web)
 
+[80,443 - Pentesting Web Methodology - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web#initial-checks) -INITIAL CHECKS
+
+### INSPECTION
+
 Use the inspect option to see valuable HTML information
 
 ![[Pasted image 20230927075239.png]]
@@ -16,6 +20,7 @@ use curl to get information from the page
 User-agent: *
 Disallow: /search
 
+### ENUMERATING APIS
 
 **Initial checks**
 
@@ -26,3 +31,10 @@ Disallow: /search
 - /clientaccesspolicy.xml    
 - /.well-known/
 - Check also comments in the main and secondary pages.
+
+Create pattern wordlist
+
+┌──(hollacosta㉿kali1)-[~]
+└─$ gobuster dir -u http://192.168.202.16:5002 -w /usr/share/wordlists/dirb/big.txt -p pattern                                                                                               ----to find patterns
+
+

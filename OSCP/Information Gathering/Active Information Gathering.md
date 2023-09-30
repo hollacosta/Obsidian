@@ -1,4 +1,5 @@
-**DNS**
+### **DNS**
+[53 - Pentesting DNS - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-dns)
 make sure you put the www in the website. see example below
 ┌──(hollacosta㉿kali1)-[~]
 └─$ host megacorpcone.com
@@ -48,10 +49,12 @@ test.megacorpone.com has address 51.222.169.219
 vpn.megacorpone.com has address 51.222.169.220
 router.megacorpone.com has address 51.222.169.214
 
+**SCAN AN IP RANGE AND USE THE GREP -V TO EXCLUDE THE NOT FOUND RESULTS**
+
 for ip in $(seq 200 254); do host 51.222.169.$ip; done | grep -v "not found"
 the ip bash loops in the ips 200-254 and is placed with the $
 
-**DNS RECON**
+### **DNS RECON** -end parameter (std) is standard scan
 the strongest parameters you can consider using: ^c034b3
 
 1. **-d (Domain)**: Specify the target domain name to perform DNS reconnaissance on.
@@ -74,7 +77,7 @@ the strongest parameters you can consider using: ^c034b3
     
 18. **-A (All)**: Combine multiple types of enumeration (e.g., standard, reverse, brute force) in a single scan. ^f307d3
 
-**DNSENUM**
+### **DNSENUM**
 
 - `-w`: Specify a custom wordlist for subdomain enumeration.
 - `-l`: Set the maximum length of brute force subdomains.
@@ -89,7 +92,7 @@ the strongest parameters you can consider using: ^c034b3
 - `-i`: Attempt to gather additional information about subdomains.
 - `-r`: Perform recursive subdomain enumeration.
 
-**NETCAT**
+### **NETCAT**
 1. **Basic Network Scanning:**
     - `-v` (Verbose): Provides detailed information about the connection.
     - `-n` (Numeric-only IP addresses): Prevents DNS resolution for faster scans.
@@ -124,10 +127,36 @@ the strongest parameters you can consider using: ^c034b3
     - `-s` (Bind source address): Specify a source IP address to listen on a specific network interface.
 12. **Firewall Evasion:**
     - Use options like `-e` to specify an executable to run upon connection, which can help bypass firewalls and intrusion detection systems.
-    - 
-***PORT SCANNING***
+    -
+### NSLOOKUP (WINDOWS)
+
+[10 most used Nslookup commands (github.com)](https://gist.github.com/eguyd/b87528d0863bd59c0907e9cdc708b38e)
+
+C:\Users\17542>nslookup -type=mx google.com
+Server:  G3100.myfiosgateway.com
+Address:  192.168.1.1
+
+Non-authoritative answer:
+google.com      MX preference = 10, mail exchanger = smtp.google.com
+
+smtp.google.com internet address = 142.251.167.26
+smtp.google.com internet address = 142.251.167.27
+smtp.google.com internet address = 172.253.62.27
+smtp.google.com internet address = 172.253.62.26
+smtp.google.com internet address = 172.253.115.26
+smtp.google.com AAAA IPv6 address = 2607:f8b0:4004:c1d::1a
+smtp.google.com AAAA IPv6 address = 2607:f8b0:4004:c1d::1b
+smtp.google.com AAAA IPv6 address = 2607:f8b0:4004:c07::1b
+smtp.google.com AAAA IPv6 address = 2607:f8b0:4004:c07::1a
+
+### ***NMAP PORT SCANNING***
 [Nmap Summary (ESP) - HackTricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/pentesting-network/nmap-summary-esp)
-**NMAP**
+[Nmap Cheat Sheet 2023: All the Commands, Flags & Switches (stationx.net)](https://www.stationx.net/nmap-cheat-sheet/)
+
+To see the traffic of all the action that you are doing, set up iptables
+https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/suricata-and-iptables-cheatsheet#iptables
+
+ **NMAP**
 └─$ sudo nmap -sS 192.168.234.52                                                                        ---- STEALTH SCAN ^002524
 
 └─$ sudo nmap -sT 192.168.234.52
@@ -135,7 +164,6 @@ Starting Nmap 7.91 ( https://nmap.org ) at 2023-09-25 06:57 EDT      ---- TCP FU
 
 ┌──(hollacosta㉿kali1)-[~]
 └─$ sudo nmap -sU 192.168.234.52                                                                               ---- UDP SCAN
-
 
 1. **Basic Scan Types:**
     - `-sS` (TCP SYN Scan): Stealthy scan that sends SYN packets to determine open ports.
@@ -243,6 +271,11 @@ Test-NetConnection -Port 445 192.168.50.151
 **AUTOMATING A POWERSHELL PORTSCANNING**
 1..1024 | % {echo ((New-Object Net.Sockets.TcpClient).Connect("192.168.248.52", $_)) "TCP port $_ is open"} 2>$null
 
+### [Basic PowerShell for Pentesters - HackTricks](https://book.hacktricks.xyz/windows-hardening/basic-powershell-for-pentesters)
+
+
+
+
 **SMB ENUMERATION**
 [139,445 - Pentesting SMB - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)
 **NBTSCAN**
@@ -253,8 +286,10 @@ Doing NBT name scan for addresses from 192.168.234.20/24
 
 
 
-**USING NMAP FOR SMB ENUMERATION**
------------------------------------------------------------------------------
+### SMB/NETBIOS 
+
+[139,445 - Pentesting SMB - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)
+
 nmap -v -p 139,445 -oG smb.txt 192.168.234.      
 - `-v`: It makes the tool provide more details during the scan.
 - `-p 139,445`: It checks if ports 139 and 445 are open on a device. These ports are often used for file sharing on Windows computers.
@@ -266,10 +301,10 @@ nmap -v -p 139,445 -oG smb.txt 192.168.234.
 -rw-r--r-- 1 root root  3355 Oct 12  2020 /usr/share/nmap/scripts/smb2-capabilities.nse
 -rw-r--r-- 1 root root  3075 Oct 12  2020 /usr/share/nmap/scripts/smb2-security-mode.nse
 
-**SMTP**
+### **SMTP** - MAIL TRANSFER PROTOCOL
 [25,465,587 - Pentesting SMTP/s - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smtp)
 
-**SNMP** 
+### **SNMP**  NETWORK MANAGEMENT PROTOCOL
 [161,162,10161,10162/udp - Pentesting SNMP - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-snmp)
 1. **System Information (SNMPv2-MIB::sysDescr):**
     - OID: 1.3.6.1.2.1.1.1.0
