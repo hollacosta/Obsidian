@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Web Application Attacks/LFI.md",
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/LFI.md",
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/LFI.md",
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/LFI.md"
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md"
               }
             }
           }
@@ -149,26 +149,28 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "OSCP/Web Application Attacks/Directory Trasversal.md",
     "OSCP/Web Application Attacks/LFI.md",
-    "OSCP/Web Application Attacks/File Inclusion.md",
-    "OSCP/Web Application Attacks/Tools.md",
-    "OSCP/Web Application Attacks/Enumerating APIs.md",
-    "OSCP/Web Application Attacks/File Upload Vulnerabilities.md",
+    "OSCP/Web Application Attacks/Cross Site Scripting.md",
+    "OSCP/Web Application Attacks/Directory Trasversal.md",
     "OSCP/Web Application Attacks/Encoding Special Characters.md",
+    "OSCP/Web Application Attacks/Enumerating APIs.md",
+    "OSCP/Web Application Attacks/File Inclusion.md",
+    "OSCP/Web Application Attacks/Non Executable Files.md",
+    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
+    "OSCP/Web Application Attacks/Pasted image 20230929143154.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929105659.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929105652.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929105630.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929103922.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929103823.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929081856.png",
+    "OSCP/Web Application Attacks/Pasted image 20230929081700.png",
+    "OSCP/Web Application Attacks/Tools.md",
+    "Pasted image 20230928134014.png",
+    "Pasted image 20230928134316.png",
+    "OSCP/Web Application Attacks/File Upload Vulnerabilities.md",
     "OSCP/General Notes.md",
     "Megacorpone.com/Information Gathering.md",
-    "OSCP/Web Application Attacks/Cross Site Scripting.md",
-    "Pasted image 20230927075343.png",
-    "Pasted image 20230927201339.png",
-    "Pasted image 20230927201458.png",
-    "Pasted image 20230927201746.png",
-    "Pasted image 20230927201808.png",
-    "Pasted image 20230927202840.png",
-    "Pasted image 20230928110120.png",
-    "Pasted image 20230928111642.png",
-    "Pasted image 20230928111731.png",
-    "Pasted image 20230928112029.png",
     "OSCP/Web Application Attacks/PHP Wrappers.md",
     "OSCP/Web Application Attacks/Page Inspection.md",
     "OSCP/Web Application Attacks/Remote File Inclusion.md",
@@ -190,9 +192,6 @@
     "Untitled 1",
     "Pasted image 20230924075326.png.md",
     "Megacorpone.com",
-    "Obsidian/Untitled.md",
-    "Pasted image 20230923202759.png.md",
-    "Chmod Cheat Sheet.png.md",
     "OSCP"
   ]
 }

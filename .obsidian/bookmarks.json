@@ -33,6 +33,13 @@
       "path": "OSCP/Information Gathering/Active Information Gathering.md",
       "subpath": "#^f307d3",
       "title": "DNS"
+    },
+    {
+      "type": "file",
+      "ctime": 1695999138841,
+      "path": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
+      "subpath": "#^1cb993",
+      "title": "CMD OR PS CHECK"
     }
   ]
 }

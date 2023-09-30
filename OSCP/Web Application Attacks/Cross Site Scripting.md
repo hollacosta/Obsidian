@@ -1,5 +1,5 @@
 ### Cross-Site Scripting (XSS)  - **XSS Tools - HackTricks**   - [Link](https://book.hacktricks.xyz/pentesting-web/xss-cross-site-scripting/xss-tools)  
-### Common Special Characters for XSS  - `< > ' " { } ;`  
+### Common Special Characters for XSS  - ` > ' " { } ;`  
 ### Resources  - [Percent-encoding - Wikipedia](https://en.wikipedia.org/wiki/Percent-encoding)  
 ## Privilege Escalation via XSS 
 ### JavaScript Code for Nonce  
