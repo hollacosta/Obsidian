@@ -9,6 +9,7 @@ curl it
 
 ![[Pasted image 20230930072157.png]]
 
+### INSPECT FILE PATH
 
 Use Burp to see the files you upload and send it to repeater
 ![[Pasted image 20230929081700.png]]
@@ -79,6 +80,8 @@ OS{0abee53b249dc5c654c0ffc1489fc77a}
 root@84e850ae62ab:~# 
 
 
+
+### USING BURP TO USE KEY
 
 After creating the key, navigate to the the page again with intercept on so you can forward ssh key
 

