@@ -1,6 +1,6 @@
 [SQLMap - Cheetsheat - HackTricks](https://book.hacktricks.xyz/pentesting-web/sql-injection/sqlmap)
 [MySQL injection - HackTricks](https://book.hacktricks.xyz/pentesting-web/sql-injection/mysql-injection)
-
+## SQL DB TYPES AND THEORY
 MySQL and Microsoft SQL Server (MSSQL) most common
 Identify the port using NMAP
 
@@ -102,7 +102,13 @@ admin        lab
 
 guest        guest      
 
-### DID IT WORK?
+## SQL INJECTION ATTACKS
+If you can use a ' at the end and receive a response, you can interact with the database
+![[Pasted image 20230930093732.png]]
+
+
+
+
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md",
+                "file": "OSCP/SQL injection Attacks/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md",
+                "file": "OSCP/SQL injection Attacks/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md",
+                "file": "OSCP/SQL injection Attacks/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL INJECTION.md"
+                "file": "OSCP/SQL injection Attacks/SQL.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
+    "Pasted image 20230930093732.png",
     "Pasted image 20230930080712.png",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
-    "OSCP/SQL injection Attacks/SQL INJECTION.md",
+    "OSCP/SQL injection Attacks/SQL.md",
     "OSCP/SQL injection Attacks",
     "OSCP/Web Application Attacks/Executable  Files.md",
     "Pasted image 20230930072943.png",
@@ -174,7 +175,6 @@
     "OSCP/Web Application Attacks/Pasted image 20230929103823.png",
     "OSCP/Web Application Attacks/Pasted image 20230929103922.png",
     "OSCP/Web Application Attacks/Pasted image 20230929105630.png",
-    "OSCP/Web Application Attacks/Pasted image 20230929105652.png",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
