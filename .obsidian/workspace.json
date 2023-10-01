@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL.md",
+                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 315.5,
+    "collapsed": true
   },
   "right": {
     "id": "2635373e43ba9a5a",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL.md",
+                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL.md",
+                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL.md"
+                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md"
               }
             }
           }
@@ -149,31 +150,31 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "Pasted image 20230930093732.png",
-    "Pasted image 20230930080712.png",
+    "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+    "Pasted image 20231001055033.png",
+    "Pasted image 20231001054924.png",
+    "Pasted image 20231001054619.png",
+    "Pasted image 20231001054233.png",
+    "Pasted image 20231001054147.png",
+    "Pasted image 20231001054044.png",
+    "Pasted image 20231001053200.png",
+    "Pasted image 20231001053044.png",
+    "Pasted image 20231001051716.png",
+    "Pasted image 20231001051402.png",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
-    "OSCP/SQL injection Attacks/SQL.md",
     "OSCP/SQL injection Attacks",
     "OSCP/Web Application Attacks/Executable  Files.md",
-    "Pasted image 20230930072943.png",
-    "Pasted image 20230930072812.png",
     "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
-    "Pasted image 20230930072157.png",
     "OSCP/General Notes.md",
     "OSCP/Web Application Attacks/PHP Wrappers.md",
     "OSCP/Web Application Attacks/Enumeration.md",
     "OSCP/Web Application Attacks/Directory Trasversal.md",
-    "Pasted image 20230930071008.png",
     "OSCP/Web Application Attacks/LFI.md",
     "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/Web Application Attacks/Encoding Special Characters.md",
     "OSCP/Web Application Attacks/Assessment Tools.md",
     "OSCP/Web Application Attacks/Page Inspection.md",
-    "OSCP/Web Application Attacks/Pasted image 20230929081700.png",
-    "OSCP/Web Application Attacks/Pasted image 20230929081856.png",
-    "OSCP/Web Application Attacks/Pasted image 20230929103823.png",
-    "OSCP/Web Application Attacks/Pasted image 20230929103922.png",
-    "OSCP/Web Application Attacks/Pasted image 20230929105630.png",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",

