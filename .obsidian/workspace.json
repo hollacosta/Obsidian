@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+                "file": "OSCP/Information Gathering/Passive information.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5,
-    "collapsed": true
+    "width": 315.5
   },
   "right": {
     "id": "2635373e43ba9a5a",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+                "file": "OSCP/Information Gathering/Passive information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+                "file": "OSCP/Information Gathering/Passive information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md"
+                "file": "OSCP/Information Gathering/Passive information.md"
               }
             }
           }
@@ -150,8 +149,14 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
+    "OSCP/Information Gathering/Passive information.md",
+    "Megacorpone.com/Information Gathering.md",
+    "OSCP/Web Application Attacks/Enumeration.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+    "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/SQL injection Attacks/Untitled.md",
+    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
     "Pasted image 20231001055033.png",
     "Pasted image 20231001054924.png",
     "Pasted image 20231001054619.png",
@@ -168,27 +173,21 @@
     "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
     "OSCP/General Notes.md",
     "OSCP/Web Application Attacks/PHP Wrappers.md",
-    "OSCP/Web Application Attacks/Enumeration.md",
     "OSCP/Web Application Attacks/Directory Trasversal.md",
     "OSCP/Web Application Attacks/LFI.md",
     "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/Web Application Attacks/Encoding Special Characters.md",
     "OSCP/Web Application Attacks/Assessment Tools.md",
     "OSCP/Web Application Attacks/Page Inspection.md",
-    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
-    "OSCP/Information Gathering/Passive information.md",
     "OSCP/Web Application Attacks/File Upload Vulnerabilities.md",
-    "Megacorpone.com/Information Gathering.md",
     "OSCP/Web Application Attacks/Remote File Inclusion.md",
     "Untitled.md",
     "OSCP/Web Application Attacks/File Inclusion Vulnerabilities.md",
     "OSCP/Web Application Attacks/PRIVILEGE ESCALATION via XSS.md",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
-    "OSCP/Pentest Report.md",
-    "OSCP/Vulnerability Scanning/Nessus/Untitled.md",
     "OSCP/Vulnerability Scanning/Nessus",
     "OSCP/Vulnerability Scanning",
     "Untitled.canvas",

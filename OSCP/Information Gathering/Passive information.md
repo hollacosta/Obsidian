@@ -81,3 +81,35 @@ Shodan.io
 
 
 
+
+
+
+**SITES LIKE NETCRAFT/ WAPPALYZER**
+1. **BuiltWith:**
+    
+    - Website: [https://builtwith.com/](https://builtwith.com/)
+    - BuiltWith is a popular web technology profiler that provides information about the technologies used on a website, including CMS, analytics tools, hosting, and more.
+2. **WhatRuns:**
+    
+    - Website: [https://www.whatruns.com/](https://www.whatruns.com/)
+    - WhatRuns is a browser extension that detects technologies used on websites, including CMS, web frameworks, JavaScript libraries, and fonts.
+3. **HackerTarget:**
+    
+    - Website: [https://hackertarget.com/](https://hackertarget.com/)
+    - HackerTarget offers a range of online tools for discovering information about websites, including technology stack detection.
+4. **W3Techs:**
+    
+    - Website: [https://w3techs.com/](https://w3techs.com/)
+    - W3Techs provides extensive information about the usage of various web technologies and content management systems across the internet.
+5. **SecurityHeaders.io:**
+    
+    - Website: [https://securityheaders.io/](https://securityheaders.io/)
+    - While not the same as Wappalyzer, SecurityHeaders.io helps you analyze HTTP response headers for security headers and other information.
+6. **Netcraft:**
+    
+    - Website: [https://www.netcraft.com/](https://www.netcraft.com/)
+    - Netcraft offers a variety of internet security and technology-related services, including a browser extension for technology detection.
+7. **Retire.js:**
+    
+    - GitHub: [https://github.com/RetireJS/retire.js](https://github.com/RetireJS/retire.js)
+    - Retire.js is a command-line tool and browser extension that helps identify outdated JavaScript libraries and frameworks on websites.

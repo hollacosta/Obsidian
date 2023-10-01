@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false,
+  "promptDelete": true,
   "attachmentFolderPath": "/",
   "showUnsupportedFiles": true,
   "trashOption": "system"
