@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Information Gathering/Passive information.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wpsca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Information Gathering/Passive information.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Information Gathering/Passive information.md",
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Information Gathering/Passive information.md"
+                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md"
               }
             }
           }
@@ -149,8 +150,8 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Information Gathering/Passive information.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
     "Megacorpone.com/Information Gathering.md",
     "OSCP/Web Application Attacks/Enumeration.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",

@@ -35,6 +35,10 @@ javascriptCopy code
 bashCopy code
 `wpscan --url http://offsecwp/`
 
+GET AN API TOKEN!!!!!
+┌──(hollacosta㉿kali1)-[~]
+└─$ wpscan --url http://alvida-eatery.org --api-token wkxSffDwg1OWHj50PpxpOVybhRIxdfYVCqSYeEzE1F8
+
 ### Reverse Shell PHP Script for Wordpress
 
 - [pentestmonkey/php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
