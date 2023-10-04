@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
+                "file": "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wpsca",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
+                "file": "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md",
+                "file": "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Web Application Attacks/Cross Site Scripting.md"
+                "file": "OSCP/Tools/LIGOLO (Tunneling Protocol).md"
               }
             }
           }
@@ -150,12 +149,21 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
+    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
+    "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
+    "OSCP/Web Application Attacks/Executable  Files.md",
+    "OSCP/Tools/John the Ripper (password cracking).md",
+    "OSCP/Tools/HASHCAT (Password Cracker).md",
+    "OSCP/General Notes.md",
+    "OSCP/Tools",
+    "OSCP/Pentest Report.md",
+    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+    "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/Information Gathering/Passive information.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "Megacorpone.com/Information Gathering.md",
     "OSCP/Web Application Attacks/Enumeration.md",
-    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
-    "OSCP/SQL injection Attacks/SQL Theory and types.md",
     "OSCP/SQL injection Attacks/Untitled.md",
     "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
     "Pasted image 20231001055033.png",
@@ -170,23 +178,15 @@
     "Pasted image 20231001051402.png",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/SQL injection Attacks",
-    "OSCP/Web Application Attacks/Executable  Files.md",
-    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
-    "OSCP/General Notes.md",
     "OSCP/Web Application Attacks/PHP Wrappers.md",
     "OSCP/Web Application Attacks/Directory Trasversal.md",
     "OSCP/Web Application Attacks/LFI.md",
-    "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/Web Application Attacks/Encoding Special Characters.md",
     "OSCP/Web Application Attacks/Assessment Tools.md",
     "OSCP/Web Application Attacks/Page Inspection.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
     "OSCP/Web Application Attacks/File Upload Vulnerabilities.md",
-    "OSCP/Web Application Attacks/Remote File Inclusion.md",
-    "Untitled.md",
-    "OSCP/Web Application Attacks/File Inclusion Vulnerabilities.md",
-    "OSCP/Web Application Attacks/PRIVILEGE ESCALATION via XSS.md",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
     "OSCP/Vulnerability Scanning/Nessus",
