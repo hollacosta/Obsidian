@@ -40,6 +40,20 @@
       "path": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
       "subpath": "#^1cb993",
       "title": "CMD OR PS CHECK"
+    },
+    {
+      "type": "file",
+      "ctime": 1696457945441,
+      "path": "OSCP/Web Application Attacks/Executable  Files.md",
+      "subpath": "#INDEX.PHP SCRIPT",
+      "title": "Webshell - Index.php"
+    },
+    {
+      "type": "file",
+      "ctime": 1696466072836,
+      "path": "OSCP/Web Application Attacks/Cross Site Scripting.md",
+      "subpath": "#Reverse Shell PHP Script for Wordpress",
+      "title": "PHP SCRIPTS"
     }
   ]
 }
