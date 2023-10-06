@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md",
+                "file": "OSCP/Web Application Attacks/Executable  Files.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bin/bash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md",
+                "file": "OSCP/Web Application Attacks/Executable  Files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md",
+                "file": "OSCP/Web Application Attacks/Executable  Files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md"
+                "file": "OSCP/Web Application Attacks/Executable  Files.md"
               }
             }
           }
@@ -149,19 +150,25 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "Pasted image 20231004214100.png",
+    "OSCP/Information Gathering/Active Information Gathering.md",
+    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
     "OSCP/Tools/IMPORTANT COMMANDS.md",
-    "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/SQL injection Attacks/SQL Theory and types.md",
-    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
+    "Pasted image 20231005201451.png",
+    "Pasted image 20231005200620.png",
+    "Pasted image 20231005200459.png",
+    "Pasted image 20231005200443.png",
+    "Pasted image 20231005200358.png",
     "OSCP/SQL injection Attacks/Untitled.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
+    "Pasted image 20231004214100.png",
+    "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "Pasted image 20231004203231.png",
     "Pasted image 20231004203208.png",
     "OSCP/Information Gathering/Passive information.md",
     "Pasted image 20231004202641.png",
-    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
     "OSCP/Web Application Attacks/Executable  Files.md",
     "Pasted image 20231004201438.png",
     "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
@@ -170,15 +177,8 @@
     "OSCP/General Notes.md",
     "OSCP/Tools",
     "OSCP/Pentest Report.md",
-    "OSCP/Information Gathering/Active Information Gathering.md",
     "Megacorpone.com/Information Gathering.md",
     "OSCP/Web Application Attacks/Enumeration.md",
-    "Pasted image 20231001055033.png",
-    "Pasted image 20231001054924.png",
-    "Pasted image 20231001054619.png",
-    "Pasted image 20231001054233.png",
-    "Pasted image 20231001054147.png",
-    "Pasted image 20231001054044.png",
     "OSCP/SQL injection Attacks",
     "OSCP/Web Application Attacks/PHP Wrappers.md",
     "OSCP/Web Application Attacks/Directory Trasversal.md",
