@@ -4,6 +4,6 @@ find ~/ -type f -exec grep -l "OS{" {} \;      ----FLAG FINDER
 
 find / -name "flag.txt" -print   -----flag finder in Windows environment
 
-.
+.dir /s /b | findstr /i "OS{"
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md",
+                "file": "OSCP/Tools/Exiftool (Metadata).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md",
+                "file": "OSCP/Tools/Exiftool (Metadata).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md",
+                "file": "OSCP/Tools/Exiftool (Metadata).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/SQL injection Attacks/SQL Theory and types.md"
+                "file": "OSCP/Tools/Exiftool (Metadata).md"
               }
             }
           }
@@ -147,11 +147,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24f3e5bbf2ee7eb2",
+  "active": "4442928990018c1e",
   "lastOpenFiles": [
-    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
-    "OSCP/Tools/IMPORTANT COMMANDS.md",
     "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/Tools/Exiftool (Metadata).md",
+    "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/Web Application Attacks/Executable  Files.md",
     "OSCP/Information Gathering/Active Information Gathering.md",

