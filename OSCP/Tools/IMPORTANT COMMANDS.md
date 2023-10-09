@@ -8,5 +8,10 @@ find / -name "flag.txt" -print   -----flag finder in Windows environment
 
 source myenv/bin/activate              --- TO ACTIVATE THE VIRTUAL ENVIRONMENT
 
+Get-ChildItem -Path C:\ -Recurse -File -Filter 'flag.txt'   ---Powershell cmd
+
+sudo env "PATH=$PATH" autorecon 192.168.225.194 ---AUTORECON
+
+
 
 

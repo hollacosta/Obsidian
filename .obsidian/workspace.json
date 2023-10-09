@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md"
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md"
               }
             }
           }
@@ -150,19 +150,19 @@
   },
   "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "Pasted image 20231009101852.png",
-    "OSCP/General Notes.md",
     "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+    "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
+    "OSCP/General Notes.md",
+    "Pasted image 20231009101852.png",
     "OSCP/Client Side Attacks",
     "OSCP/Tools/TheHarvester (OSINT gathering).md",
-    "OSCP/Tools/IMPORTANT COMMANDS.md",
     "OSCP/Tools/Exiftool (Metadata).md",
     "OSCP/SQL injection Attacks/SQL Theory and types.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/Web Application Attacks/Executable  Files.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
-    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
     "Pasted image 20231005201451.png",
     "Pasted image 20231005200620.png",
     "Pasted image 20231005200459.png",
@@ -176,7 +176,6 @@
     "Pasted image 20231004203208.png",
     "OSCP/Information Gathering/Passive information.md",
     "Pasted image 20231004202641.png",
-    "Pasted image 20231004201438.png",
     "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
     "OSCP/Tools/John the Ripper (password cracking).md",
     "OSCP/Tools/HASHCAT (Password Cracker).md",

@@ -68,6 +68,13 @@
       "path": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
       "subpath": "#^655ce0",
       "title": "Macro"
+    },
+    {
+      "type": "file",
+      "ctime": 1696862107923,
+      "path": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+      "subpath": "#^99cc34",
+      "title": "REVERSE SHELL"
     }
   ]
 }
