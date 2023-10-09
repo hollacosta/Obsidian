@@ -6,4 +6,7 @@ find / -name "flag.txt" -print   -----flag finder in Windows environment
 
 .dir /s /b | findstr /i "OS{"
 
+source myenv/bin/activate              --- TO ACTIVATE THE VIRTUAL ENVIRONMENT
+
+
 

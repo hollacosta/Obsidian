@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Tools/Exiftool (Metadata).md",
+                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Tools/Exiftool (Metadata).md",
+                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Tools/Exiftool (Metadata).md",
+                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Tools/Exiftool (Metadata).md"
+                "file": "OSCP/Client Side Attacks/Microsoft Office attacks.md"
               }
             }
           }
@@ -144,14 +144,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "whisper:Open recording controls": false
     }
   },
-  "active": "4442928990018c1e",
+  "active": "24f3e5bbf2ee7eb2",
   "lastOpenFiles": [
-    "OSCP/SQL injection Attacks/SQL Theory and types.md",
-    "OSCP/Tools/Exiftool (Metadata).md",
+    "Pasted image 20231009101852.png",
+    "OSCP/General Notes.md",
+    "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+    "OSCP/Client Side Attacks",
+    "OSCP/Tools/TheHarvester (OSINT gathering).md",
     "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "OSCP/Tools/Exiftool (Metadata).md",
+    "OSCP/SQL injection Attacks/SQL Theory and types.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/Web Application Attacks/Executable  Files.md",
@@ -174,7 +180,6 @@
     "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
     "OSCP/Tools/John the Ripper (password cracking).md",
     "OSCP/Tools/HASHCAT (Password Cracker).md",
-    "OSCP/General Notes.md",
     "OSCP/Tools",
     "OSCP/Pentest Report.md",
     "Megacorpone.com/Information Gathering.md",
@@ -184,9 +189,6 @@
     "OSCP/Web Application Attacks/Directory Trasversal.md",
     "OSCP/Web Application Attacks/LFI.md",
     "OSCP/Web Application Attacks/Encoding Special Characters.md",
-    "OSCP/Web Application Attacks/Assessment Tools.md",
-    "OSCP/Web Application Attacks/Page Inspection.md",
-    "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
     "OSCP/Vulnerability Scanning/Nessus",

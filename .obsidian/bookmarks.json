@@ -54,6 +54,20 @@
       "path": "OSCP/Web Application Attacks/Cross Site Scripting.md",
       "subpath": "#Reverse Shell PHP Script for Wordpress",
       "title": "PHP SCRIPTS"
+    },
+    {
+      "type": "file",
+      "ctime": 1696861245780,
+      "path": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+      "subpath": "#^3c3761",
+      "title": "Macro"
+    },
+    {
+      "type": "file",
+      "ctime": 1696861267374,
+      "path": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+      "subpath": "#^655ce0",
+      "title": "Macro"
     }
   ]
 }

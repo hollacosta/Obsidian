@@ -35,3 +35,7 @@ A GENERAL PENETRATION TEST comprises the following stages:
 ![[Pasted image 20230926204532.png]]
 
 Always check your working directory when you are trying to do some commands
+
+
+for remotedesktop use **xfreerdp or rdesktop**
+
