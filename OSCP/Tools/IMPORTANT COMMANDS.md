@@ -12,6 +12,11 @@ Get-ChildItem -Path C:\ -Recurse -File -Filter 'flag.txt'   ---Powershell cmd
 
 sudo env "PATH=$PATH" autorecon 192.168.225.194 ---AUTORECON
 
+```sh
+SHELL=/bin/bash script -q /dev/null
+```
+UPGRADE THE SHELL
+
 
 
 

