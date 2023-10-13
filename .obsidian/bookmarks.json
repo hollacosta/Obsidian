@@ -75,6 +75,13 @@
       "path": "OSCP/Client Side Attacks/Microsoft Office attacks.md",
       "subpath": "#^99cc34",
       "title": "REVERSE SHELL"
+    },
+    {
+      "type": "file",
+      "ctime": 1697158655102,
+      "path": "OSCP/Tools/IMPORTANT COMMANDS.md",
+      "subpath": "#^44c81b",
+      "title": "PAYLOADS"
     }
   ]
 }

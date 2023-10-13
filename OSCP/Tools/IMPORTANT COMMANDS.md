@@ -17,6 +17,7 @@ SHELL=/bin/bash script -q /dev/null
 ```
 UPGRADE THE SHELL
 
+PAYLOADS BY TYPE msfvenom -l payloads | grep "cmd/unix*"  ^44c81b
 
 
 
