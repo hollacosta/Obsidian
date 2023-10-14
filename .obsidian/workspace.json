@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Public Exploits/Exploit Resources.md",
+                "file": "OSCP/Tools/mingw-w64 (compiler).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38dd9bed9e28d0f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fixing Exploits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a7f82441bf89446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "login",
+                "query": "shellc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Public Exploits/Exploit Resources.md",
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Public Exploits/Exploit Resources.md",
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Public Exploits/Exploit Resources.md"
+                "file": "OSCP/Web Application Attacks/OS CMD INJECTION.md"
               }
             }
           }
@@ -148,22 +173,26 @@
       "whisper:Open recording controls": false
     }
   },
-  "active": "3e77b2b57edfc3b3",
+  "active": "2a7f82441bf89446",
   "lastOpenFiles": [
-    "Pasted image 20231012210137.png",
-    "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "Pasted image 20231013191911.png",
+    "Pasted image 20231013191857.png",
+    "Pasted image 20231013185334.png",
+    "Pasted image 20231013185301.png",
+    "OSCP/Tools/mingw-w64 (compiler).md",
+    "Fixing Exploits.md",
+    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Public Exploits/Exploit Resources.md",
-    "Pasted image 20231012210052.png",
-    "Pasted image 20231012205940.png",
-    "Pasted image 20231012205702.png",
-    "Pasted image 20231012205326.png",
-    "Pasted image 20231012205154.png",
-    "Pasted image 20231012205057.png",
-    "Pasted image 20231012205006.png",
+    "Pasted image 20231013101028.png",
+    "Pasted image 20231013101014.png",
+    "Pasted image 20231013100933.png",
+    "Pasted image 20231013100846.png",
+    "Pasted image 20231013100656.png",
+    "Pasted image 20231013084946.png",
+    "OSCP/Tools/IMPORTANT COMMANDS.md",
     "OSCP/Client Side Attacks/Microsoft Office attacks.md",
-    "Pasted image 20231012195741.png",
-    "Pasted image 20231012195728.png",
-    "Pasted image 20231012195414.png",
+    "Pasted image 20231012210137.png",
     "OSCP/Web Application Attacks/Cross Site Scripting.md",
     "OSCP/Public Exploits",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
@@ -177,9 +206,7 @@
     "OSCP/Tools/Exiftool (Metadata).md",
     "OSCP/SQL injection Attacks/SQL Theory and types.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
-    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/Web Application Attacks/Executable  Files.md",
-    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/SQL injection Attacks/Untitled.md",
     "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
     "OSCP/Information Gathering/Passive information.md",
@@ -187,8 +214,6 @@
     "OSCP/Tools/John the Ripper (password cracking).md",
     "OSCP/Tools/HASHCAT (Password Cracker).md",
     "OSCP/Tools",
-    "OSCP/Pentest Report.md",
-    "Megacorpone.com/Information Gathering.md",
     "OSCP/SQL injection Attacks",
     "Untitled 1.canvas",
     "OSCP/Web Application Attacks",
