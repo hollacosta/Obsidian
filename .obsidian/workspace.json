@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e77b2b57edfc3b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OSCP/Tools/mingw-w64 (compiler).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38dd9bed9e28d0f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fixing Exploits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2a7f82441bf89446",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "msfve",
+                "query": "nmap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,44 +150,43 @@
   },
   "active": "2a7f82441bf89446",
   "lastOpenFiles": [
-    "Pasted image 20231015195657.png",
-    "Pasted image 20231015190212.png",
-    "Pasted image 20231015185540.png",
-    "OSCP/Tools/IMPORTANT COMMANDS.md",
-    "OSCP/Public Exploits/Exploit Resources.md",
-    "OSCP/Public Exploits/Fixing Exploits.md",
-    "Pasted image 20231015184623.png",
-    "Pasted image 20231015184419.png",
-    "Pasted image 20231015184309.png",
-    "Pasted image 20231015184011.png",
-    "Pasted image 20231015183833.png",
-    "Pasted image 20231015183559.png",
-    "Pasted image 20231015182629.png",
-    "Pasted image 20231015182614.png",
-    "OSCP/SQL injection Attacks/SQL.md",
-    "OSCP/SQL injection Attacks/Untitled.md",
-    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
-    "OSCP/Web Application Attacks/Cross Site Scripting.md",
-    "OSCP/SQL injection Attacks/SQL Theory and types.md",
-    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
-    "OSCP/Tools/mingw-w64 (compiler).md",
-    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "Fixing Exploits.md",
+    "OSCP/Tools/mingw-w64 (compiler).md",
+    "OSCP/Public Exploits/Fixing Exploits.md",
+    "Pasted image 20231016205334.png",
+    "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "Pasted image 20231016204125.png",
+    "Pasted image 20231016192056.png",
+    "Pasted image 20231016191855.png",
+    "Pasted image 20231016191833.png",
+    "OSCP/Information Gathering/Passive information.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
-    "OSCP/Client Side Attacks/Microsoft Office attacks.md",
-    "OSCP/Public Exploits",
+    "OSCP/Web Application Attacks/OS CMD INJECTION.md",
+    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
+    "OSCP/Web Application Attacks/Executable  Files.md",
+    "OSCP/Web Application Attacks/Enumeration.md",
+    "OSCP/Web Application Attacks/Directory Trasversal.md",
+    "OSCP/Web Application Attacks/Cross Site Scripting.md",
+    "OSCP/Web Application Attacks/Assessment Tools.md",
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
-    "OSCP/Web Application Attacks/Directory Trasversal.md",
-    "OSCP/Web Application Attacks/Enumeration.md",
-    "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
+    "Pasted image 20231016183728.png",
+    "Pasted image 20231016183419.png",
+    "Pasted image 20231016183349.png",
+    "Pasted image 20231016183256.png",
+    "Pasted image 20231016180315.png",
+    "OSCP/SQL injection Attacks/Untitled.md",
+    "OSCP/Public Exploits/Exploit Resources.md",
+    "OSCP/SQL injection Attacks/SQL.md",
+    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
+    "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+    "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+    "OSCP/Public Exploits",
     "OSCP/General Notes.md",
     "OSCP/Client Side Attacks",
     "OSCP/Tools/TheHarvester (OSINT gathering).md",
     "OSCP/Tools/Exiftool (Metadata).md",
-    "OSCP/Web Application Attacks/Executable  Files.md",
-    "OSCP/Information Gathering/Passive information.md",
-    "OSCP/Tools/LIGOLO (Tunneling Protocol).md",
     "OSCP/Tools",
     "OSCP/SQL injection Attacks",
     "Untitled 1.canvas",
