@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Tools/VEIL FRAMEWORK.md",
+                "file": "OSCP/Antivirus Evasion/AV Evation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Tools/VEIL FRAMEWORK.md",
+                "file": "OSCP/Antivirus Evasion/AV Evation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Tools/VEIL FRAMEWORK.md",
+                "file": "OSCP/Antivirus Evasion/AV Evation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Tools/VEIL FRAMEWORK.md"
+                "file": "OSCP/Antivirus Evasion/AV Evation.md"
               }
             }
           }
@@ -150,10 +150,11 @@
   },
   "active": "2a7f82441bf89446",
   "lastOpenFiles": [
+    "Pasted image 20231018190737.png",
+    "OSCP/Tools/VEIL FRAMEWORK.md",
     "Pasted image 20231018185426.png",
     "Pasted image 20231018185318.png",
     "OSCP/Tools/IMPORTANT COMMANDS.md",
-    "OSCP/Tools/VEIL FRAMEWORK.md",
     "OSCP/Antivirus Evasion/AV Evation.md",
     "Pasted image 20231018180301.png",
     "Pasted image 20231018175542.png",
@@ -169,7 +170,6 @@
     "OSCP/Public Exploits/Fixing Exploits.md",
     "Fixing Exploits.md",
     "OSCP/Tools/mingw-w64 (compiler).md",
-    "Pasted image 20231016205334.png",
     "OSCP/Information Gathering/Passive information.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
