@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Antivirus Evasion/AV Evation.md",
+                "file": "OSCP/Tools/VEIL FRAMEWORK.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Antivirus Evasion/AV Evation.md",
+                "file": "OSCP/Tools/VEIL FRAMEWORK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Antivirus Evasion/AV Evation.md",
+                "file": "OSCP/Tools/VEIL FRAMEWORK.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Antivirus Evasion/AV Evation.md"
+                "file": "OSCP/Tools/VEIL FRAMEWORK.md"
               }
             }
           }
@@ -150,8 +150,14 @@
   },
   "active": "2a7f82441bf89446",
   "lastOpenFiles": [
+    "Pasted image 20231018185426.png",
+    "Pasted image 20231018185318.png",
     "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "OSCP/Tools/VEIL FRAMEWORK.md",
     "OSCP/Antivirus Evasion/AV Evation.md",
+    "Pasted image 20231018180301.png",
+    "Pasted image 20231018175542.png",
+    "Pasted image 20231018174525.png",
     "Pasted image 20231017202440.png",
     "Pasted image 20231017202017.png",
     "OSCP/Tools/Shellter (injection code).md",
@@ -164,10 +170,6 @@
     "Fixing Exploits.md",
     "OSCP/Tools/mingw-w64 (compiler).md",
     "Pasted image 20231016205334.png",
-    "Pasted image 20231016204125.png",
-    "Pasted image 20231016192056.png",
-    "Pasted image 20231016191855.png",
-    "Pasted image 20231016191833.png",
     "OSCP/Information Gathering/Passive information.md",
     "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
@@ -185,7 +187,6 @@
     "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
     "OSCP/SQL injection Attacks/SQL Theory and types.md",
     "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
-    "OSCP/Client Side Attacks/Microsoft Office attacks.md",
     "OSCP/Public Exploits",
     "OSCP/Client Side Attacks",
     "OSCP/Tools",

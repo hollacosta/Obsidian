@@ -82,6 +82,13 @@
       "path": "OSCP/Tools/IMPORTANT COMMANDS.md",
       "subpath": "#^44c81b",
       "title": "PAYLOADS"
+    },
+    {
+      "type": "file",
+      "ctime": 1697666608753,
+      "path": "OSCP/Antivirus Evasion/AV Evation.md",
+      "subpath": "#^afd7cb",
+      "title": "Meterpreter"
     }
   ]
 }
