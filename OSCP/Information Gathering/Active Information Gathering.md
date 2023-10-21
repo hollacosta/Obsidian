@@ -276,8 +276,11 @@ Test-NetConnection -Port 445 192.168.50.151
 
 
 
-**SMB ENUMERATION**
+###  SMB ENUMERATION
 [139,445 - Pentesting SMB - HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-smb)
+
+![[Pasted image 20231021170348.png]]
+
 **NBTSCAN**
 └─$ sudo nbtscan -r 192.168.234.20/24                              
 Doing NBT name scan for addresses from 192.168.234.20/24

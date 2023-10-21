@@ -91,3 +91,15 @@
         
 
 These are just examples, and you should replace the file names and hash modes with the actual values you have for your penetration testing engagement. Always ensure you have the proper authorization to perform password cracking.
+
+hashcat --help | grep -i "KeePass" to find the hashcat type!
+
+[rule_based_attack [hashcat wiki]](https://hashcat.net/wiki/doku.php?id=rule_based_attack)
+
+to see the rules needed for it 
+
+THERE ARE RULES ALREADY PREDETERMINED! FOR A FULL LIST, GO TO 
+/usr/share/hashcat/rules/
+
+![[Pasted image 20231021060313.png]]
+

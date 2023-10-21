@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Password Cracking/15.1.1 SSH and RPD.md",
+                "file": "OSCP/Password Cracking/hashcat.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nmap",
+                "query": "smb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Password Cracking/15.1.1 SSH and RPD.md",
+                "file": "OSCP/Password Cracking/hashcat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Password Cracking/15.1.1 SSH and RPD.md",
+                "file": "OSCP/Password Cracking/hashcat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Password Cracking/15.1.1 SSH and RPD.md"
+                "file": "OSCP/Password Cracking/hashcat.md"
               }
             }
           }
@@ -150,30 +150,32 @@
   },
   "active": "2a7f82441bf89446",
   "lastOpenFiles": [
-    "Pasted image 20231021051658.png",
-    "Pasted image 20231021050507.png",
-    "Pasted image 20231021050443.png",
-    "Pasted image 20231021050357.png",
-    "Pasted image 20231021050258.png",
-    "Pasted image 20231019200421.png",
-    "Pasted image 20231019190607.png",
-    "Pasted image 20231019184709.png",
-    "Pasted image 20231019184431.png",
-    "Pasted image 20231019184345.png",
-    "Pasted image 20231019184215.png",
+    "Pasted image 20231021172431.png",
+    "OSCP/Tools/IMPORTANT COMMANDS.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
+    "Pasted image 20231021170348.png",
+    "OSCP/Public Exploits/Exploit Resources.md",
+    "OSCP/Password Cracking/hashcat.md",
+    "Pasted image 20231021165457.png",
+    "Pasted image 20231021165157.png",
+    "Pasted image 20231021165006.png",
+    "Pasted image 20231021164943.png",
+    "Pasted image 20231021155509.png",
+    "Pasted image 20231021155442.png",
+    "Pasted image 20231021155221.png",
+    "Pasted image 20231021104819.png",
+    "Pasted image 20231021104803.png",
+    "OSCP/Tools/HASHCAT (Password Cracker).md",
+    "OSCP/Tools/Exiftool (Metadata).md",
     "OSCP/Antivirus Evasion/AV Evation.md",
-    "OSCP/Password Cracking/15.1.1 SSH and RPD.md",
     "OSCP/Password Cracking",
     "OSCP/Tools/VEIL FRAMEWORK.md",
-    "OSCP/Tools/IMPORTANT COMMANDS.md",
     "OSCP/Tools/Shellter (injection code).md",
     "OSCP/Antivirus Evasion",
-    "OSCP/Tools/HASHCAT (Password Cracker).md",
     "OSCP/Public Exploits/Fixing Exploits.md",
     "Fixing Exploits.md",
     "OSCP/Tools/mingw-w64 (compiler).md",
     "OSCP/Information Gathering/Passive information.md",
-    "OSCP/Information Gathering/Active Information Gathering.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
     "OSCP/Web Application Attacks/Executable  Files.md",
@@ -184,10 +186,8 @@
     "OSCP/Vulnerability Scanning/NMAP NSE.md",
     "OSCP/Vulnerability Scanning/Nessus.md",
     "OSCP/SQL injection Attacks/Untitled.md",
-    "OSCP/Public Exploits/Exploit Resources.md",
     "OSCP/SQL injection Attacks/SQL.md",
     "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
-    "OSCP/SQL injection Attacks/SQL Theory and types.md",
     "OSCP/Public Exploits",
     "OSCP/Client Side Attacks",
     "OSCP/Tools",
