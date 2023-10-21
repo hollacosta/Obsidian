@@ -43,3 +43,4 @@ use msfvenom interpreter
 ![[Pasted image 20231018190737.png]]
 same principles as the previous capstone
 
+
