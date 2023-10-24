@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OSCP/Password Cracking/hashcat.md",
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smb",
+                "query": "powershel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSCP/Password Cracking/hashcat.md",
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OSCP/Password Cracking/hashcat.md",
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OSCP/Password Cracking/hashcat.md"
+                "file": "OSCP/Tools/IMPORTANT COMMANDS.md"
               }
             }
           }
@@ -150,21 +150,31 @@
   },
   "active": "2a7f82441bf89446",
   "lastOpenFiles": [
-    "Pasted image 20231021172431.png",
+    "Windows Privilege Escalation/ENUMERATING WINDOWS.md",
+    "Pasted image 20231023212513.png",
+    "Pasted image 20231023212448.png",
+    "Pasted image 20231023212422.png",
+    "Pasted image 20231023212122.png",
     "OSCP/Tools/IMPORTANT COMMANDS.md",
-    "OSCP/Information Gathering/Active Information Gathering.md",
-    "Pasted image 20231021170348.png",
-    "OSCP/Public Exploits/Exploit Resources.md",
+    "Fixing Exploits.md",
     "OSCP/Password Cracking/hashcat.md",
-    "Pasted image 20231021165457.png",
-    "Pasted image 20231021165157.png",
-    "Pasted image 20231021165006.png",
-    "Pasted image 20231021164943.png",
-    "Pasted image 20231021155509.png",
-    "Pasted image 20231021155442.png",
-    "Pasted image 20231021155221.png",
-    "Pasted image 20231021104819.png",
-    "Pasted image 20231021104803.png",
+    "Windows Privilege Escalation",
+    "Pasted image 20231022183511.png",
+    "Pasted image 20231022183423.png",
+    "Pasted image 20231022183407.png",
+    "Pasted image 20231022175304.png",
+    "Pasted image 20231022173013.png",
+    "Pasted image 20231022172914.png",
+    "OSCP/Web Application Attacks/Executable  Files.md",
+    "OSCP/Web Application Attacks/PHP Wrappers.md",
+    "OSCP/Client Side Attacks/Microsoft Office attacks.md",
+    "OSCP/SQL injection Attacks/SQL Theory and types.md",
+    "OSCP/SQL injection Attacks/Untitled.md",
+    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
+    "OSCP/SQL injection Attacks/SQL.md",
+    "OSCP/SQL injection Attacks/SQL Manual and Automatic Explotation.md",
+    "OSCP/Information Gathering/Active Information Gathering.md",
+    "OSCP/Public Exploits/Exploit Resources.md",
     "OSCP/Tools/HASHCAT (Password Cracker).md",
     "OSCP/Tools/Exiftool (Metadata).md",
     "OSCP/Antivirus Evasion/AV Evation.md",
@@ -173,21 +183,11 @@
     "OSCP/Tools/Shellter (injection code).md",
     "OSCP/Antivirus Evasion",
     "OSCP/Public Exploits/Fixing Exploits.md",
-    "Fixing Exploits.md",
     "OSCP/Tools/mingw-w64 (compiler).md",
     "OSCP/Information Gathering/Passive information.md",
     "OSCP/Web Application Attacks/OS CMD INJECTION.md",
     "OSCP/Web Application Attacks/File Inclusion - Local & Remote.md",
-    "OSCP/Web Application Attacks/Executable  Files.md",
     "OSCP/Web Application Attacks/Enumeration.md",
-    "OSCP/Web Application Attacks/Directory Trasversal.md",
-    "OSCP/Web Application Attacks/Cross Site Scripting.md",
-    "OSCP/Web Application Attacks/Assessment Tools.md",
-    "OSCP/Vulnerability Scanning/NMAP NSE.md",
-    "OSCP/Vulnerability Scanning/Nessus.md",
-    "OSCP/SQL injection Attacks/Untitled.md",
-    "OSCP/SQL injection Attacks/SQL.md",
-    "OSCP/SQL injection Attacks/Manual and Automatic SQL Injection.md",
     "OSCP/Public Exploits",
     "OSCP/Client Side Attacks",
     "OSCP/Tools",
@@ -196,7 +196,6 @@
     "OSCP/Web Application Attacks",
     "OSCP/Vulnerability Scanning/Nessus",
     "OSCP/Vulnerability Scanning",
-    "Untitled.canvas",
-    "OSCP/Information Gathering"
+    "Untitled.canvas"
   ]
 }
