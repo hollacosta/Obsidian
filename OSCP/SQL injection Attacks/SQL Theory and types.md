@@ -169,6 +169,8 @@ with the next command, we are attempting to dump the user name, password and des
 
 ### EXERCISES
 
+![[Pasted image 20231029061347.png]]
+
 #### Q5
 
 ```
